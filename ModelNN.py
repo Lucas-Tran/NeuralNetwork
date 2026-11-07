@@ -1,11 +1,18 @@
-import torch
+import json
 from torch import nn
 
 class ModelNN(nn.Module):
-    def __init__(self, n, activations):
+    def __init__(self, architecture_json_path):
         super(ModelNN, self).__init__()
+
+        with open(architecture_json_path) as f:
+            architecture = json.load(f)
+            n = architecture["n"]
+            activations = architecture["activations"]
+            l = len(activations)
+
         self.activations = nn.ModuleList()
-        for i in range(len(n) - 1):
+        for i in range(l):
             match activations[i]:
                 case "sigmoid":
                     self.activations.append(nn.Sigmoid())
@@ -17,7 +24,7 @@ class ModelNN(nn.Module):
                     self.activations.append(nn.Identity())
 
         self.layers = nn.ModuleList()
-        for i in range(len(n) - 1):
+        for i in range(l):
             self.layers.append(nn.Linear(n[i], n[i + 1]))
 
     def forward(self, x):

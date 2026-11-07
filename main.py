@@ -10,16 +10,14 @@ if __name__ == "__main__":
     M, X, Y_hat = jp.parse_data("data/train.json")
 
     with open("hyperparameters.json") as f:
-        data = json.load(f)
-        alpha = data["training"]["alpha"]
-        num_iterations = data["training"]["num_iterations"]
-        n = data["network-architecture"]["n"]
-        activations = data["network-architecture"]["activations"]
-        retrain = data["retrain"]
+        hyperparameters = json.load(f)
 
-    model = ModelNN.ModelNN(n, activations)
+    model = ModelNN.ModelNN("NNArchitecture/houseing_price_pred.json")
 
-    if retrain:
+    if hyperparameters["retrain"]:
+        alpha = hyperparameters["training"]["alpha"]
+        num_iterations = hyperparameters["training"]["num_iterations"]
+
         gd.gradient_decent(model, X, Y_hat, alpha, num_iterations)
 
         torch.save(model.state_dict(), "params.pth")

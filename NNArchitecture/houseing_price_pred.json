@@ -1,0 +1,4 @@
+{
+    "n": [4, 64, 32, 16, 1],
+    "activations": ["tanh", "tanh", "tanh", "linear"]
+}

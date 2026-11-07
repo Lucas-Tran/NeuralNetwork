@@ -19,4 +19,4 @@ def parse_data(file_name):
             house_ages.append(training_example['house_age'])
             estimated_prices.append(training_example['estimated_price'])
             M += 1
-    return M, torch.tensor([house_sizes, num_bedrooms, num_bathrooms, house_ages]), torch.tensor([estimated_prices]) / 1000000
+    return M, (torch.tensor([house_sizes, num_bedrooms, num_bathrooms, house_ages])).T, torch.tensor([estimated_prices]).T / 1000000

@@ -1,10 +1,11 @@
 {
+  "retrain": false,
   "training": {
     "alpha": 0.01,
     "num_iterations": 200
   },
   "network-architecture": {
-    "n": [4, 5, 3, 2, 1],
+    "n": [4, 64, 32, 16, 1],
     "activations": ["tanh", "tanh", "tanh", "linear"]
   }
 }

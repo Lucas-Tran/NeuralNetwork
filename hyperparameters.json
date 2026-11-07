@@ -2,6 +2,7 @@
   "retrain": true,
   "training": {
     "alpha": 0.01,
-    "num_iterations": 200
+    "epochs": 5,
+    "batch_size": 256
   }
 }

@@ -6,8 +6,59 @@ from torch.utils.data import DataLoader
 import ModelCNN
 import gradient_decent as gd
 
+import gradio as gr
+from PIL import Image
+
 import json
 import torch
+
+def load_data():
+    transform = transforms.ToTensor()
+
+    train_dataset = datasets.MNIST(
+        root="./data",
+        train=True,
+        download=True,
+        transform=transform
+    )
+
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=hyperparameters["training"]["batch_size"],
+        shuffle=True
+    )
+
+    test_dataset = datasets.MNIST(
+        root="./data",
+        train=False,
+        download=True,
+        transform=transform
+    )
+
+    return train_dataset, train_loader, test_dataset
+
+
+def predict_drawing(sketch_dict):
+    """Processes the sketch from the browser canvas and outputs predictions."""
+    if sketch_dict is None:
+        return "Please draw something on the canvas!"
+
+    # Gradio sketchpad returns a dictionary containing a 'composite' image layer
+    pil_image = sketch_dict["composite"]
+
+    # Handle color channels based on your model input configuration
+    pil_image = pil_image.convert("L")  # Convert to Grayscale
+
+    # Apply sizing and normalization transforms, then add the Batch Dimension [1, C, H, W]
+    tensor_image = transform_pipeline(pil_image).unsqueeze(0)
+
+    # Run prediction safely without gradient computations
+    with torch.no_grad():
+        logits = model(tensor_image)
+        # Find the highest raw score index column
+        predicted_class = torch.argmax(logits, dim=1).item()
+
+    return f"Predicted Digit: {predicted_class}"
 
 if __name__ == "__main__":
 
@@ -18,23 +69,12 @@ if __name__ == "__main__":
 
     if hyperparameters["retrain"]:
 
-        transform = transforms.ToTensor()
-
-        train_dataset = datasets.MNIST(
-            root="./data",
-            train=True,
-            download=True,
-            transform=transform
-        )
+        train_dataset, train_loader, test_dataset = load_data()
 
         alpha = hyperparameters["training"]["alpha"]
         num_iterations = hyperparameters["training"]["epochs"]
 
-        train_loader = DataLoader(
-            train_dataset,
-            batch_size=hyperparameters["training"]["batch_size"],
-            shuffle=True
-        )
+
 
         cost_func = CrossEntropyLoss()
         gd.gradient_decent(model, train_loader, cost_func, alpha, num_iterations)
@@ -51,14 +91,6 @@ if __name__ == "__main__":
             print(f"Training set error: {cost_func(predictions, labels).item()}", file=file)
 
 
-
-            test_dataset = datasets.MNIST(
-                root="./data",
-                train=False,
-                download=True,
-                transform=transform
-            )
-
             images = test_dataset.data.float().unsqueeze(1) / 255
             labels = test_dataset.targets
 
@@ -70,19 +102,18 @@ if __name__ == "__main__":
         model.load_state_dict(torch.load("params_numbers.pth", weights_only=True))
         model.eval()
 
-    # while True:
-    #     print("\nEnter house information (or type 'q' to quit)")
-    #
-    #     house_size = input("House size (thousands of sq ft): ")
-    #
-    #     if house_size.lower() == "q":
-    #         break
-    #
-    #     house_size = float(house_size)
-    #     bedrooms = float(input("Number of bedrooms: "))
-    #     bathrooms = float(input("Number of bathrooms: "))
-    #     house_age = float(input("House age: "))
-    #
-    #     price = model(torch.tensor([[house_size, bedrooms, bathrooms, house_age]])).item() * 1000000
-    #
-    #     print(f"Predicted price: ${price:,.2f}")
+    transform_pipeline = transforms.Compose([
+        transforms.Resize((28, 28)),
+        transforms.ToTensor(),
+        transforms.RandomInvert(p=1.0)
+    ])
+
+    interface = gr.Interface(
+        fn=predict_drawing,
+        inputs=gr.Sketchpad(type="pil", label="Draw a Number Here"),
+        outputs=gr.Textbox(label="Model Output Decision"),
+        title="Handwritten Digit Draw & Predict",
+        description="Sketch any single digit number inside the box and click submit to watch your dynamic CNN classify it instantly!"
+    )
+
+    interface.launch()

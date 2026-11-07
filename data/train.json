@@ -558,5 +558,7005 @@
     "num_bathrooms": 2.0,
     "house_age": 2.6,
     "estimated_price": 574000
+  },
+  {
+    "house_size": 3.23,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 6.7,
+    "estimated_price": 1373000
+  },
+  {
+    "house_size": 0.74,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 4.5,
+    "estimated_price": 495000
+  },
+  {
+    "house_size": 1.9,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 4.6,
+    "estimated_price": 923000
+  },
+  {
+    "house_size": 2.34,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.5,
+    "estimated_price": 1042000
+  },
+  {
+    "house_size": 3.23,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.7,
+    "estimated_price": 1285000
+  },
+  {
+    "house_size": 2.57,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 5.5,
+    "estimated_price": 1143000
+  },
+  {
+    "house_size": 1.91,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 906000
+  },
+  {
+    "house_size": 3.5,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.0,
+    "estimated_price": 1416000
+  },
+  {
+    "house_size": 0.9,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.8,
+    "estimated_price": 459000
+  },
+  {
+    "house_size": 3.35,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 7.2,
+    "estimated_price": 1410000
+  },
+  {
+    "house_size": 3.12,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 2.3,
+    "estimated_price": 1343000
+  },
+  {
+    "house_size": 2.03,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.0,
+    "estimated_price": 878000
+  },
+  {
+    "house_size": 2.51,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 5.3,
+    "estimated_price": 1106000
+  },
+  {
+    "house_size": 3.41,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.3,
+    "estimated_price": 1346000
+  },
+  {
+    "house_size": 2.43,
+    "num_bedrooms": 3,
+    "num_bathrooms": 4.0,
+    "house_age": 0.9,
+    "estimated_price": 1143000
+  },
+  {
+    "house_size": 2.71,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 1199000
+  },
+  {
+    "house_size": 3.45,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.3,
+    "estimated_price": 1349000
+  },
+  {
+    "house_size": 2.13,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 7.0,
+    "estimated_price": 819000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 3,
+    "num_bathrooms": 4.0,
+    "house_age": 1.1,
+    "estimated_price": 1220000
+  },
+  {
+    "house_size": 3.37,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 7.6,
+    "estimated_price": 1378000
+  },
+  {
+    "house_size": 1.87,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.0,
+    "house_age": 6.2,
+    "estimated_price": 785000
+  },
+  {
+    "house_size": 3.46,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 3.3,
+    "estimated_price": 1542000
+  },
+  {
+    "house_size": 3.1,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.7,
+    "estimated_price": 1231000
+  },
+  {
+    "house_size": 0.89,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 3.8,
+    "estimated_price": 500000
+  },
+  {
+    "house_size": 1.03,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 560000
+  },
+  {
+    "house_size": 1.86,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.5,
+    "estimated_price": 742000
+  },
+  {
+    "house_size": 2.18,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.2,
+    "estimated_price": 964000
+  },
+  {
+    "house_size": 3.14,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1309000
+  },
+  {
+    "house_size": 3.28,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 3.3,
+    "estimated_price": 1296000
+  },
+  {
+    "house_size": 2.2,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 0.9,
+    "estimated_price": 941000
+  },
+  {
+    "house_size": 2.97,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 5.3,
+    "estimated_price": 1291000
+  },
+  {
+    "house_size": 2.29,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 1.9,
+    "estimated_price": 996000
+  },
+  {
+    "house_size": 2.09,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 2.4,
+    "estimated_price": 942000
+  },
+  {
+    "house_size": 3.07,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.4,
+    "estimated_price": 1399000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1501000
+  },
+  {
+    "house_size": 2.98,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1306000
+  },
+  {
+    "house_size": 0.95,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.3,
+    "estimated_price": 583000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 4.4,
+    "estimated_price": 1359000
+  },
+  {
+    "house_size": 3.34,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.2,
+    "estimated_price": 1432000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 2.3,
+    "estimated_price": 1343000
+  },
+  {
+    "house_size": 3.46,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.4,
+    "estimated_price": 1429000
+  },
+  {
+    "house_size": 1.59,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 6.9,
+    "estimated_price": 689000
+  },
+  {
+    "house_size": 0.9,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.8,
+    "estimated_price": 385000
+  },
+  {
+    "house_size": 2.8,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.9,
+    "estimated_price": 1252000
+  },
+  {
+    "house_size": 3.37,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 6.4,
+    "estimated_price": 1387000
+  },
+  {
+    "house_size": 3.48,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.4,
+    "estimated_price": 1462000
+  },
+  {
+    "house_size": 1.38,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 0.8,
+    "estimated_price": 730000
+  },
+  {
+    "house_size": 3.25,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 3.1,
+    "estimated_price": 1358000
+  },
+  {
+    "house_size": 1.58,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.4,
+    "estimated_price": 740000
+  },
+  {
+    "house_size": 1.15,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 2.6,
+    "estimated_price": 621000
+  },
+  {
+    "house_size": 2.17,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 2.5,
+    "estimated_price": 957000
+  },
+  {
+    "house_size": 1.84,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 6.2,
+    "estimated_price": 783000
+  },
+  {
+    "house_size": 1.91,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.6,
+    "estimated_price": 871000
+  },
+  {
+    "house_size": 2.44,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 5.1,
+    "estimated_price": 1094000
+  },
+  {
+    "house_size": 3.21,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.9,
+    "estimated_price": 1356000
+  },
+  {
+    "house_size": 2.28,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 4.4,
+    "estimated_price": 1012000
+  },
+  {
+    "house_size": 2.53,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.6,
+    "estimated_price": 1160000
+  },
+  {
+    "house_size": 3.07,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 2.6,
+    "estimated_price": 1402000
+  },
+  {
+    "house_size": 2.14,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 5.4,
+    "estimated_price": 960000
+  },
+  {
+    "house_size": 3.43,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 7.1,
+    "estimated_price": 1455000
+  },
+  {
+    "house_size": 1.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 3.0,
+    "estimated_price": 481000
+  },
+  {
+    "house_size": 1.67,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 7.2,
+    "estimated_price": 683000
+  },
+  {
+    "house_size": 1.42,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 3.6,
+    "estimated_price": 722000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.7,
+    "estimated_price": 983000
+  },
+  {
+    "house_size": 3.49,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 2.1,
+    "estimated_price": 1566000
+  },
+  {
+    "house_size": 2.64,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.5,
+    "estimated_price": 1134000
+  },
+  {
+    "house_size": 2.18,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 1.6,
+    "estimated_price": 993000
+  },
+  {
+    "house_size": 3.44,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.2,
+    "estimated_price": 1447000
+  },
+  {
+    "house_size": 2.24,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.5,
+    "estimated_price": 1000000
+  },
+  {
+    "house_size": 2.05,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 1.5,
+    "estimated_price": 922000
+  },
+  {
+    "house_size": 1.87,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.9,
+    "estimated_price": 830000
+  },
+  {
+    "house_size": 0.79,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 3.9,
+    "estimated_price": 437000
+  },
+  {
+    "house_size": 0.84,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 4.5,
+    "estimated_price": 443000
+  },
+  {
+    "house_size": 0.89,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.9,
+    "estimated_price": 493000
+  },
+  {
+    "house_size": 1.54,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.4,
+    "estimated_price": 678000
+  },
+  {
+    "house_size": 0.86,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.8,
+    "estimated_price": 481000
+  },
+  {
+    "house_size": 2.92,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.2,
+    "estimated_price": 1308000
+  },
+  {
+    "house_size": 3.37,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.8,
+    "estimated_price": 1402000
+  },
+  {
+    "house_size": 2.41,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 0.7,
+    "estimated_price": 987000
+  },
+  {
+    "house_size": 1.05,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 4.8,
+    "estimated_price": 506000
+  },
+  {
+    "house_size": 3.32,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 3.8,
+    "estimated_price": 1380000
+  },
+  {
+    "house_size": 3.43,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.0,
+    "estimated_price": 1426000
+  },
+  {
+    "house_size": 0.99,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.4,
+    "estimated_price": 488000
+  },
+  {
+    "house_size": 0.94,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.0,
+    "estimated_price": 576000
+  },
+  {
+    "house_size": 1.08,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 2.6,
+    "estimated_price": 599000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 6.6,
+    "estimated_price": 1360000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.1,
+    "estimated_price": 985000
+  },
+  {
+    "house_size": 1.75,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 4.1,
+    "estimated_price": 895000
+  },
+  {
+    "house_size": 2.38,
+    "num_bedrooms": 2,
+    "num_bathrooms": 3.0,
+    "house_age": 0.4,
+    "estimated_price": 1112000
+  },
+  {
+    "house_size": 3.5,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 2.3,
+    "estimated_price": 1594000
+  },
+  {
+    "house_size": 2.78,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 0.8,
+    "estimated_price": 1227000
+  },
+  {
+    "house_size": 3.45,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.5,
+    "estimated_price": 1414000
+  },
+  {
+    "house_size": 3.28,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 1.3,
+    "estimated_price": 1485000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 6.3,
+    "estimated_price": 868000
+  },
+  {
+    "house_size": 1.75,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 1.1,
+    "estimated_price": 892000
+  },
+  {
+    "house_size": 0.96,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 1.3,
+    "estimated_price": 543000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.7,
+    "estimated_price": 1435000
+  },
+  {
+    "house_size": 1.75,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 6.7,
+    "estimated_price": 740000
+  },
+  {
+    "house_size": 1.23,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.0,
+    "estimated_price": 546000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 862000
+  },
+  {
+    "house_size": 2.77,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 5.0,
+    "estimated_price": 1236000
+  },
+  {
+    "house_size": 2.57,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 6.2,
+    "estimated_price": 1172000
+  },
+  {
+    "house_size": 3.35,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 1.4,
+    "estimated_price": 1420000
+  },
+  {
+    "house_size": 1.75,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 0.2,
+    "estimated_price": 843000
+  },
+  {
+    "house_size": 1.57,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 6.3,
+    "estimated_price": 696000
+  },
+  {
+    "house_size": 1.87,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.9,
+    "estimated_price": 791000
+  },
+  {
+    "house_size": 3.01,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.6,
+    "estimated_price": 1275000
+  },
+  {
+    "house_size": 1.93,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 0.5,
+    "estimated_price": 863000
+  },
+  {
+    "house_size": 2.85,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 5.3,
+    "estimated_price": 1205000
+  },
+  {
+    "house_size": 2.93,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 1232000
+  },
+  {
+    "house_size": 1.81,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.4,
+    "estimated_price": 805000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.6,
+    "estimated_price": 380000
+  },
+  {
+    "house_size": 2.69,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 6.8,
+    "estimated_price": 1195000
+  },
+  {
+    "house_size": 2.08,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.2,
+    "estimated_price": 844000
+  },
+  {
+    "house_size": 3.23,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 0.8,
+    "estimated_price": 1436000
+  },
+  {
+    "house_size": 3.36,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 7.5,
+    "estimated_price": 1411000
+  },
+  {
+    "house_size": 0.94,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 6.0,
+    "estimated_price": 495000
+  },
+  {
+    "house_size": 3.06,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 0.1,
+    "estimated_price": 1329000
+  },
+  {
+    "house_size": 3.36,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 2.6,
+    "estimated_price": 1427000
+  },
+  {
+    "house_size": 3.39,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.3,
+    "estimated_price": 1365000
+  },
+  {
+    "house_size": 2.87,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.5,
+    "estimated_price": 1286000
+  },
+  {
+    "house_size": 2.25,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.3,
+    "estimated_price": 1054000
+  },
+  {
+    "house_size": 3.41,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 1.4,
+    "estimated_price": 1526000
+  },
+  {
+    "house_size": 3.01,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.8,
+    "estimated_price": 1303000
+  },
+  {
+    "house_size": 0.77,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 5.7,
+    "estimated_price": 433000
+  },
+  {
+    "house_size": 2.72,
+    "num_bedrooms": 3,
+    "num_bathrooms": 4.0,
+    "house_age": 1.3,
+    "estimated_price": 1171000
+  },
+  {
+    "house_size": 2.88,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.5,
+    "estimated_price": 1264000
+  },
+  {
+    "house_size": 2.31,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 1049000
+  },
+  {
+    "house_size": 1.84,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 0.1,
+    "estimated_price": 778000
+  },
+  {
+    "house_size": 3.03,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 0.3,
+    "estimated_price": 1329000
+  },
+  {
+    "house_size": 1.11,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.3,
+    "estimated_price": 561000
+  },
+  {
+    "house_size": 1.18,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.1,
+    "estimated_price": 592000
+  },
+  {
+    "house_size": 3.28,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 1.6,
+    "estimated_price": 1411000
+  },
+  {
+    "house_size": 1.47,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 806000
+  },
+  {
+    "house_size": 2.53,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 5.7,
+    "estimated_price": 1067000
+  },
+  {
+    "house_size": 2.45,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.8,
+    "estimated_price": 1076000
+  },
+  {
+    "house_size": 2.19,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.8,
+    "estimated_price": 1024000
+  },
+  {
+    "house_size": 2.55,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 4.4,
+    "estimated_price": 1120000
+  },
+  {
+    "house_size": 2.97,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 7.2,
+    "estimated_price": 1195000
+  },
+  {
+    "house_size": 2.58,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 0.9,
+    "estimated_price": 1199000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 855000
+  },
+  {
+    "house_size": 3.41,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 0.5,
+    "estimated_price": 1429000
+  },
+  {
+    "house_size": 2.74,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 2.3,
+    "estimated_price": 1112000
+  },
+  {
+    "house_size": 1.21,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.3,
+    "estimated_price": 605000
+  },
+  {
+    "house_size": 3.38,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.0,
+    "estimated_price": 1398000
+  },
+  {
+    "house_size": 1.78,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.3,
+    "estimated_price": 818000
+  },
+  {
+    "house_size": 2.67,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.6,
+    "estimated_price": 1159000
+  },
+  {
+    "house_size": 1.17,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 0.8,
+    "estimated_price": 532000
+  },
+  {
+    "house_size": 2.91,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 7.2,
+    "estimated_price": 1252000
+  },
+  {
+    "house_size": 2.91,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.7,
+    "estimated_price": 1219000
+  },
+  {
+    "house_size": 1.8,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 6.4,
+    "estimated_price": 830000
+  },
+  {
+    "house_size": 1.8,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.9,
+    "estimated_price": 795000
+  },
+  {
+    "house_size": 2.99,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 1.3,
+    "estimated_price": 1287000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 7.3,
+    "estimated_price": 850000
+  },
+  {
+    "house_size": 2.52,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 3.6,
+    "estimated_price": 1196000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.6,
+    "estimated_price": 416000
+  },
+  {
+    "house_size": 1.83,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.7,
+    "estimated_price": 842000
+  },
+  {
+    "house_size": 1.49,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 6.9,
+    "estimated_price": 623000
+  },
+  {
+    "house_size": 1.95,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 6.5,
+    "estimated_price": 925000
+  },
+  {
+    "house_size": 2.21,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 5.1,
+    "estimated_price": 1025000
+  },
+  {
+    "house_size": 2.98,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1307000
+  },
+  {
+    "house_size": 2.15,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 979000
+  },
+  {
+    "house_size": 0.73,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.7,
+    "estimated_price": 423000
+  },
+  {
+    "house_size": 1.77,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 783000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 1.8,
+    "estimated_price": 796000
+  },
+  {
+    "house_size": 2.95,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 2.5,
+    "estimated_price": 1242000
+  },
+  {
+    "house_size": 2.47,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 4.2,
+    "estimated_price": 1056000
+  },
+  {
+    "house_size": 2.07,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 905000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 6.4,
+    "estimated_price": 841000
+  },
+  {
+    "house_size": 0.89,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.4,
+    "estimated_price": 569000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 5.7,
+    "estimated_price": 356000
+  },
+  {
+    "house_size": 2.24,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 7.5,
+    "estimated_price": 861000
+  },
+  {
+    "house_size": 2.85,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 1243000
+  },
+  {
+    "house_size": 1.7,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 1.0,
+    "estimated_price": 856000
+  },
+  {
+    "house_size": 3.03,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.6,
+    "estimated_price": 1298000
+  },
+  {
+    "house_size": 2.99,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 0.2,
+    "estimated_price": 1332000
+  },
+  {
+    "house_size": 2.83,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.9,
+    "estimated_price": 1160000
+  },
+  {
+    "house_size": 2.17,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 0.6,
+    "estimated_price": 1025000
+  },
+  {
+    "house_size": 1.31,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.0,
+    "estimated_price": 596000
+  },
+  {
+    "house_size": 2.13,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 846000
+  },
+  {
+    "house_size": 2.74,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 1.5,
+    "estimated_price": 1287000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1383000
+  },
+  {
+    "house_size": 3.33,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.3,
+    "estimated_price": 1399000
+  },
+  {
+    "house_size": 1.85,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 6.0,
+    "estimated_price": 795000
+  },
+  {
+    "house_size": 2.88,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 7.3,
+    "estimated_price": 1126000
+  },
+  {
+    "house_size": 3.27,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 2.3,
+    "estimated_price": 1337000
+  },
+  {
+    "house_size": 1.49,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.4,
+    "estimated_price": 611000
+  },
+  {
+    "house_size": 2.66,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 6.5,
+    "estimated_price": 1126000
+  },
+  {
+    "house_size": 2.77,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.0,
+    "estimated_price": 1164000
+  },
+  {
+    "house_size": 2.98,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.1,
+    "estimated_price": 1250000
+  },
+  {
+    "house_size": 3.33,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.7,
+    "estimated_price": 1478000
+  },
+  {
+    "house_size": 3.01,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 1.2,
+    "estimated_price": 1378000
+  },
+  {
+    "house_size": 1.41,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 3.2,
+    "estimated_price": 704000
+  },
+  {
+    "house_size": 2.99,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 1.1,
+    "estimated_price": 1232000
+  },
+  {
+    "house_size": 3.5,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.7,
+    "estimated_price": 1456000
+  },
+  {
+    "house_size": 3.03,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.3,
+    "estimated_price": 1267000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 5.1,
+    "estimated_price": 469000
+  },
+  {
+    "house_size": 2.66,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.7,
+    "estimated_price": 1175000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 1391000
+  },
+  {
+    "house_size": 2.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 2.5,
+    "estimated_price": 1012000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 7.3,
+    "estimated_price": 1305000
+  },
+  {
+    "house_size": 3.33,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 6.0,
+    "estimated_price": 1316000
+  },
+  {
+    "house_size": 2.35,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 0.9,
+    "estimated_price": 1143000
+  },
+  {
+    "house_size": 2.14,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 815000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 5.4,
+    "estimated_price": 874000
+  },
+  {
+    "house_size": 3.0,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.8,
+    "estimated_price": 1207000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 5.2,
+    "estimated_price": 958000
+  },
+  {
+    "house_size": 2.98,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 2.6,
+    "estimated_price": 1302000
+  },
+  {
+    "house_size": 3.09,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.4,
+    "estimated_price": 1330000
+  },
+  {
+    "house_size": 3.31,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 7.3,
+    "estimated_price": 1355000
+  },
+  {
+    "house_size": 3.44,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 1.5,
+    "estimated_price": 1518000
+  },
+  {
+    "house_size": 1.2,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 0.7,
+    "estimated_price": 657000
+  },
+  {
+    "house_size": 3.03,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 6.5,
+    "estimated_price": 1207000
+  },
+  {
+    "house_size": 3.05,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1387000
+  },
+  {
+    "house_size": 3.22,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.6,
+    "estimated_price": 1398000
+  },
+  {
+    "house_size": 0.9,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.1,
+    "estimated_price": 566000
+  },
+  {
+    "house_size": 2.99,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.3,
+    "estimated_price": 1252000
+  },
+  {
+    "house_size": 0.82,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 5.4,
+    "estimated_price": 448000
+  },
+  {
+    "house_size": 1.7,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 838000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.8,
+    "estimated_price": 797000
+  },
+  {
+    "house_size": 2.93,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.6,
+    "estimated_price": 1269000
+  },
+  {
+    "house_size": 1.25,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.0,
+    "estimated_price": 603000
+  },
+  {
+    "house_size": 3.54,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 6.3,
+    "estimated_price": 1472000
+  },
+  {
+    "house_size": 3.36,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 5.7,
+    "estimated_price": 1403000
+  },
+  {
+    "house_size": 3.52,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.7,
+    "estimated_price": 1449000
+  },
+  {
+    "house_size": 3.51,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 3.1,
+    "estimated_price": 1472000
+  },
+  {
+    "house_size": 3.48,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 3.0,
+    "estimated_price": 1460000
+  },
+  {
+    "house_size": 3.3,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.6,
+    "estimated_price": 1469000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 4.2,
+    "estimated_price": 984000
+  },
+  {
+    "house_size": 3.05,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 4.7,
+    "estimated_price": 1347000
+  },
+  {
+    "house_size": 2.51,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 5.1,
+    "estimated_price": 1053000
+  },
+  {
+    "house_size": 3.35,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.8,
+    "estimated_price": 1453000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 5.2,
+    "estimated_price": 433000
+  },
+  {
+    "house_size": 3.48,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 6.5,
+    "estimated_price": 1475000
+  },
+  {
+    "house_size": 1.73,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.8,
+    "estimated_price": 838000
+  },
+  {
+    "house_size": 1.91,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.2,
+    "estimated_price": 841000
+  },
+  {
+    "house_size": 1.63,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 1.6,
+    "estimated_price": 715000
+  },
+  {
+    "house_size": 2.07,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.2,
+    "estimated_price": 952000
+  },
+  {
+    "house_size": 3.24,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 3.7,
+    "estimated_price": 1302000
+  },
+  {
+    "house_size": 3.01,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 4.5,
+    "estimated_price": 1272000
+  },
+  {
+    "house_size": 0.73,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 5.8,
+    "estimated_price": 443000
+  },
+  {
+    "house_size": 1.73,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.0,
+    "estimated_price": 859000
+  },
+  {
+    "house_size": 2.05,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 4.4,
+    "estimated_price": 895000
+  },
+  {
+    "house_size": 2.06,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 5.3,
+    "estimated_price": 888000
+  },
+  {
+    "house_size": 1.94,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.3,
+    "estimated_price": 917000
+  },
+  {
+    "house_size": 3.14,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.2,
+    "estimated_price": 1306000
+  },
+  {
+    "house_size": 2.95,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.1,
+    "estimated_price": 1305000
+  },
+  {
+    "house_size": 1.31,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 0.7,
+    "estimated_price": 609000
+  },
+  {
+    "house_size": 2.23,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.7,
+    "estimated_price": 957000
+  },
+  {
+    "house_size": 2.08,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.2,
+    "estimated_price": 878000
+  },
+  {
+    "house_size": 1.76,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.6,
+    "estimated_price": 871000
+  },
+  {
+    "house_size": 3.39,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 6.6,
+    "estimated_price": 1376000
+  },
+  {
+    "house_size": 1.41,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.0,
+    "house_age": 3.4,
+    "estimated_price": 720000
+  },
+  {
+    "house_size": 2.22,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.8,
+    "estimated_price": 999000
+  },
+  {
+    "house_size": 0.84,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 1.6,
+    "estimated_price": 480000
+  },
+  {
+    "house_size": 1.94,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.2,
+    "estimated_price": 799000
+  },
+  {
+    "house_size": 3.45,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1440000
+  },
+  {
+    "house_size": 3.44,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.5,
+    "estimated_price": 1436000
+  },
+  {
+    "house_size": 3.34,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.6,
+    "estimated_price": 1432000
+  },
+  {
+    "house_size": 3.41,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 1.8,
+    "estimated_price": 1513000
+  },
+  {
+    "house_size": 2.99,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1249000
+  },
+  {
+    "house_size": 0.75,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.4,
+    "estimated_price": 466000
+  },
+  {
+    "house_size": 1.4,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.2,
+    "estimated_price": 520000
+  },
+  {
+    "house_size": 1.94,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.5,
+    "estimated_price": 911000
+  },
+  {
+    "house_size": 2.27,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 0.8,
+    "estimated_price": 1070000
+  },
+  {
+    "house_size": 1.89,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 6.0,
+    "estimated_price": 876000
+  },
+  {
+    "house_size": 3.01,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1297000
+  },
+  {
+    "house_size": 0.89,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 4.7,
+    "estimated_price": 568000
+  },
+  {
+    "house_size": 1.21,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 3.5,
+    "estimated_price": 590000
+  },
+  {
+    "house_size": 1.57,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.9,
+    "estimated_price": 792000
+  },
+  {
+    "house_size": 1.68,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 7.1,
+    "estimated_price": 812000
+  },
+  {
+    "house_size": 1.37,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.0,
+    "house_age": 3.6,
+    "estimated_price": 661000
+  },
+  {
+    "house_size": 1.87,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.6,
+    "estimated_price": 839000
+  },
+  {
+    "house_size": 3.07,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 0.3,
+    "estimated_price": 1331000
+  },
+  {
+    "house_size": 3.21,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 3.5,
+    "estimated_price": 1438000
+  },
+  {
+    "house_size": 1.48,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 3.5,
+    "estimated_price": 738000
+  },
+  {
+    "house_size": 0.91,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.3,
+    "estimated_price": 492000
+  },
+  {
+    "house_size": 2.23,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.9,
+    "estimated_price": 1040000
+  },
+  {
+    "house_size": 1.0,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.5,
+    "estimated_price": 443000
+  },
+  {
+    "house_size": 2.74,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 5.3,
+    "estimated_price": 1200000
+  },
+  {
+    "house_size": 0.9,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.5,
+    "estimated_price": 455000
+  },
+  {
+    "house_size": 0.96,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 4.1,
+    "estimated_price": 573000
+  },
+  {
+    "house_size": 1.85,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.4,
+    "estimated_price": 827000
+  },
+  {
+    "house_size": 3.52,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.3,
+    "estimated_price": 1530000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 5.7,
+    "estimated_price": 901000
+  },
+  {
+    "house_size": 2.38,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.8,
+    "estimated_price": 1053000
+  },
+  {
+    "house_size": 1.97,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.9,
+    "estimated_price": 859000
+  },
+  {
+    "house_size": 1.39,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 6.7,
+    "estimated_price": 688000
+  },
+  {
+    "house_size": 2.12,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.0,
+    "house_age": 5.1,
+    "estimated_price": 922000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.3,
+    "estimated_price": 938000
+  },
+  {
+    "house_size": 0.9,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.1,
+    "estimated_price": 516000
+  },
+  {
+    "house_size": 0.93,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 3.6,
+    "estimated_price": 542000
+  },
+  {
+    "house_size": 1.05,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 3.7,
+    "estimated_price": 598000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.3,
+    "estimated_price": 1414000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 3.1,
+    "estimated_price": 1286000
+  },
+  {
+    "house_size": 0.83,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 4.1,
+    "estimated_price": 440000
+  },
+  {
+    "house_size": 2.87,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 2.2,
+    "estimated_price": 1283000
+  },
+  {
+    "house_size": 0.92,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.4,
+    "estimated_price": 504000
+  },
+  {
+    "house_size": 1.77,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.5,
+    "estimated_price": 845000
+  },
+  {
+    "house_size": 2.86,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1178000
+  },
+  {
+    "house_size": 1.15,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.8,
+    "estimated_price": 532000
+  },
+  {
+    "house_size": 2.08,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 1.8,
+    "estimated_price": 882000
+  },
+  {
+    "house_size": 3.49,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 2.8,
+    "estimated_price": 1526000
+  },
+  {
+    "house_size": 3.47,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.3,
+    "estimated_price": 1395000
+  },
+  {
+    "house_size": 1.39,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.1,
+    "estimated_price": 623000
+  },
+  {
+    "house_size": 2.12,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.7,
+    "estimated_price": 1044000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 4.1,
+    "estimated_price": 862000
+  },
+  {
+    "house_size": 1.04,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 467000
+  },
+  {
+    "house_size": 1.94,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.4,
+    "estimated_price": 921000
+  },
+  {
+    "house_size": 1.38,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 0.2,
+    "estimated_price": 712000
+  },
+  {
+    "house_size": 1.16,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.6,
+    "estimated_price": 634000
+  },
+  {
+    "house_size": 1.64,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.5,
+    "estimated_price": 793000
+  },
+  {
+    "house_size": 3.48,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.4,
+    "estimated_price": 1441000
+  },
+  {
+    "house_size": 3.27,
+    "num_bedrooms": 5,
+    "num_bathrooms": 5.0,
+    "house_age": 1.5,
+    "estimated_price": 1514000
+  },
+  {
+    "house_size": 1.46,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 3.7,
+    "estimated_price": 683000
+  },
+  {
+    "house_size": 3.52,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.5,
+    "house_age": 7.6,
+    "estimated_price": 1476000
+  },
+  {
+    "house_size": 2.08,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 3.1,
+    "estimated_price": 953000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1422000
+  },
+  {
+    "house_size": 2.91,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 1.9,
+    "estimated_price": 1238000
+  },
+  {
+    "house_size": 0.74,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 5.2,
+    "estimated_price": 386000
+  },
+  {
+    "house_size": 1.85,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.1,
+    "estimated_price": 711000
+  },
+  {
+    "house_size": 3.06,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 1234000
+  },
+  {
+    "house_size": 1.09,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 3.0,
+    "estimated_price": 647000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 3.6,
+    "estimated_price": 1343000
+  },
+  {
+    "house_size": 2.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 5.5,
+    "estimated_price": 866000
+  },
+  {
+    "house_size": 1.09,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.1,
+    "estimated_price": 484000
+  },
+  {
+    "house_size": 1.69,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.8,
+    "estimated_price": 707000
+  },
+  {
+    "house_size": 1.73,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 6.1,
+    "estimated_price": 774000
+  },
+  {
+    "house_size": 1.3,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 2.7,
+    "estimated_price": 624000
+  },
+  {
+    "house_size": 3.24,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.0,
+    "estimated_price": 1364000
+  },
+  {
+    "house_size": 1.92,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.6,
+    "estimated_price": 926000
+  },
+  {
+    "house_size": 0.75,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 4.7,
+    "estimated_price": 507000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 4.1,
+    "estimated_price": 446000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.1,
+    "estimated_price": 955000
+  },
+  {
+    "house_size": 2.65,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 3.6,
+    "estimated_price": 1190000
+  },
+  {
+    "house_size": 1.75,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.6,
+    "estimated_price": 940000
+  },
+  {
+    "house_size": 2.73,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.6,
+    "estimated_price": 1181000
+  },
+  {
+    "house_size": 3.47,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 7.5,
+    "estimated_price": 1406000
+  },
+  {
+    "house_size": 3.19,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 1357000
+  },
+  {
+    "house_size": 3.08,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 1.1,
+    "estimated_price": 1287000
+  },
+  {
+    "house_size": 0.98,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 5.3,
+    "estimated_price": 476000
+  },
+  {
+    "house_size": 2.05,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 6.5,
+    "estimated_price": 885000
+  },
+  {
+    "house_size": 3.43,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 4.6,
+    "estimated_price": 1455000
+  },
+  {
+    "house_size": 3.44,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.2,
+    "estimated_price": 1478000
+  },
+  {
+    "house_size": 1.14,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 4.0,
+    "estimated_price": 558000
+  },
+  {
+    "house_size": 2.44,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.6,
+    "estimated_price": 1112000
+  },
+  {
+    "house_size": 2.31,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.9,
+    "estimated_price": 1099000
+  },
+  {
+    "house_size": 2.25,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 2.1,
+    "estimated_price": 996000
+  },
+  {
+    "house_size": 2.32,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.0,
+    "house_age": 0.1,
+    "estimated_price": 908000
+  },
+  {
+    "house_size": 0.71,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 6.0,
+    "estimated_price": 450000
+  },
+  {
+    "house_size": 2.52,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.7,
+    "estimated_price": 1123000
+  },
+  {
+    "house_size": 2.76,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1164000
+  },
+  {
+    "house_size": 2.96,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1289000
+  },
+  {
+    "house_size": 1.74,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 1.4,
+    "estimated_price": 875000
+  },
+  {
+    "house_size": 2.06,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 0.3,
+    "estimated_price": 857000
+  },
+  {
+    "house_size": 2.73,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.5,
+    "house_age": 1.3,
+    "estimated_price": 1175000
+  },
+  {
+    "house_size": 1.56,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 4.0,
+    "estimated_price": 725000
+  },
+  {
+    "house_size": 3.18,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 0.5,
+    "estimated_price": 1352000
+  },
+  {
+    "house_size": 1.36,
+    "num_bedrooms": 2,
+    "num_bathrooms": 3.0,
+    "house_age": 0.2,
+    "estimated_price": 766000
+  },
+  {
+    "house_size": 1.45,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.8,
+    "estimated_price": 744000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 7.6,
+    "estimated_price": 1389000
+  },
+  {
+    "house_size": 1.92,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 740000
+  },
+  {
+    "house_size": 2.99,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 3.4,
+    "estimated_price": 1292000
+  },
+  {
+    "house_size": 3.49,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 3.4,
+    "estimated_price": 1459000
+  },
+  {
+    "house_size": 2.55,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 1.2,
+    "estimated_price": 1219000
+  },
+  {
+    "house_size": 1.65,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.1,
+    "estimated_price": 838000
+  },
+  {
+    "house_size": 3.44,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 1.4,
+    "estimated_price": 1487000
+  },
+  {
+    "house_size": 2.53,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.5,
+    "estimated_price": 1153000
+  },
+  {
+    "house_size": 2.18,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.2,
+    "estimated_price": 1033000
+  },
+  {
+    "house_size": 2.45,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 1.2,
+    "estimated_price": 1144000
+  },
+  {
+    "house_size": 2.26,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 2.0,
+    "estimated_price": 1019000
+  },
+  {
+    "house_size": 2.11,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 967000
+  },
+  {
+    "house_size": 2.95,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 4.7,
+    "estimated_price": 1225000
+  },
+  {
+    "house_size": 2.74,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 1167000
+  },
+  {
+    "house_size": 2.88,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 4.4,
+    "estimated_price": 1223000
+  },
+  {
+    "house_size": 1.68,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 1.5,
+    "estimated_price": 806000
+  },
+  {
+    "house_size": 2.17,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.2,
+    "estimated_price": 1047000
+  },
+  {
+    "house_size": 2.55,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 5.4,
+    "estimated_price": 1127000
+  },
+  {
+    "house_size": 3.42,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.0,
+    "estimated_price": 1459000
+  },
+  {
+    "house_size": 2.02,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.9,
+    "estimated_price": 998000
+  },
+  {
+    "house_size": 0.76,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.6,
+    "estimated_price": 407000
+  },
+  {
+    "house_size": 3.03,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 0.6,
+    "estimated_price": 1299000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.0,
+    "estimated_price": 1566000
+  },
+  {
+    "house_size": 2.67,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 5.1,
+    "estimated_price": 1085000
+  },
+  {
+    "house_size": 1.91,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.4,
+    "estimated_price": 940000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.1,
+    "estimated_price": 1446000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.9,
+    "estimated_price": 385000
+  },
+  {
+    "house_size": 3.18,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.4,
+    "estimated_price": 1387000
+  },
+  {
+    "house_size": 2.87,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.8,
+    "estimated_price": 1154000
+  },
+  {
+    "house_size": 3.26,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 4.2,
+    "estimated_price": 1354000
+  },
+  {
+    "house_size": 2.05,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 954000
+  },
+  {
+    "house_size": 0.85,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.2,
+    "estimated_price": 407000
+  },
+  {
+    "house_size": 2.72,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.5,
+    "house_age": 0.5,
+    "estimated_price": 1292000
+  },
+  {
+    "house_size": 0.95,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.5,
+    "estimated_price": 471000
+  },
+  {
+    "house_size": 2.91,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 4.7,
+    "estimated_price": 1244000
+  },
+  {
+    "house_size": 2.29,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 0.6,
+    "estimated_price": 1006000
+  },
+  {
+    "house_size": 3.42,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 1.6,
+    "estimated_price": 1580000
+  },
+  {
+    "house_size": 1.87,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 5.9,
+    "estimated_price": 786000
+  },
+  {
+    "house_size": 1.46,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.9,
+    "estimated_price": 777000
+  },
+  {
+    "house_size": 3.1,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 0.4,
+    "estimated_price": 1360000
+  },
+  {
+    "house_size": 2.07,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 992000
+  },
+  {
+    "house_size": 0.88,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 4.7,
+    "estimated_price": 488000
+  },
+  {
+    "house_size": 2.91,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.1,
+    "estimated_price": 1298000
+  },
+  {
+    "house_size": 2.6,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 4.6,
+    "estimated_price": 1179000
+  },
+  {
+    "house_size": 2.86,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.4,
+    "estimated_price": 1214000
+  },
+  {
+    "house_size": 1.33,
+    "num_bedrooms": 2,
+    "num_bathrooms": 3.0,
+    "house_age": 0.9,
+    "estimated_price": 771000
+  },
+  {
+    "house_size": 2.14,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 1.4,
+    "estimated_price": 927000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.3,
+    "estimated_price": 1187000
+  },
+  {
+    "house_size": 0.85,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 4.6,
+    "estimated_price": 457000
+  },
+  {
+    "house_size": 0.76,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.9,
+    "estimated_price": 404000
+  },
+  {
+    "house_size": 1.79,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.6,
+    "estimated_price": 798000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 1.3,
+    "estimated_price": 884000
+  },
+  {
+    "house_size": 2.24,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 0.1,
+    "estimated_price": 952000
+  },
+  {
+    "house_size": 2.13,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 3.9,
+    "estimated_price": 963000
+  },
+  {
+    "house_size": 3.45,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 3.4,
+    "estimated_price": 1378000
+  },
+  {
+    "house_size": 2.12,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.5,
+    "estimated_price": 845000
+  },
+  {
+    "house_size": 2.21,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.6,
+    "estimated_price": 940000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 7.4,
+    "estimated_price": 877000
+  },
+  {
+    "house_size": 2.67,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.9,
+    "estimated_price": 1162000
+  },
+  {
+    "house_size": 3.35,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 3.4,
+    "estimated_price": 1413000
+  },
+  {
+    "house_size": 1.74,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.6,
+    "estimated_price": 725000
+  },
+  {
+    "house_size": 3.12,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 0.7,
+    "estimated_price": 1379000
+  },
+  {
+    "house_size": 1.62,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 792000
+  },
+  {
+    "house_size": 3.27,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.4,
+    "estimated_price": 1241000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 2.0,
+    "estimated_price": 952000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.4,
+    "estimated_price": 1552000
+  },
+  {
+    "house_size": 1.58,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.4,
+    "estimated_price": 768000
+  },
+  {
+    "house_size": 3.53,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 7.3,
+    "estimated_price": 1414000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.5,
+    "estimated_price": 990000
+  },
+  {
+    "house_size": 3.28,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.1,
+    "estimated_price": 1353000
+  },
+  {
+    "house_size": 3.39,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 4.1,
+    "estimated_price": 1359000
+  },
+  {
+    "house_size": 0.86,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.4,
+    "estimated_price": 439000
+  },
+  {
+    "house_size": 3.18,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 5.2,
+    "estimated_price": 1298000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.1,
+    "estimated_price": 1467000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.2,
+    "estimated_price": 1430000
+  },
+  {
+    "house_size": 2.58,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 4.9,
+    "estimated_price": 1045000
+  },
+  {
+    "house_size": 1.58,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.1,
+    "estimated_price": 740000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 6.2,
+    "estimated_price": 1437000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.6,
+    "estimated_price": 1330000
+  },
+  {
+    "house_size": 2.47,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1117000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.9,
+    "estimated_price": 977000
+  },
+  {
+    "house_size": 2.15,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.8,
+    "estimated_price": 993000
+  },
+  {
+    "house_size": 1.63,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 0.5,
+    "estimated_price": 836000
+  },
+  {
+    "house_size": 1.14,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 1.0,
+    "estimated_price": 670000
+  },
+  {
+    "house_size": 1.22,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 659000
+  },
+  {
+    "house_size": 1.36,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 600000
+  },
+  {
+    "house_size": 3.26,
+    "num_bedrooms": 5,
+    "num_bathrooms": 5.0,
+    "house_age": 1.6,
+    "estimated_price": 1477000
+  },
+  {
+    "house_size": 2.97,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 0.8,
+    "estimated_price": 1346000
+  },
+  {
+    "house_size": 1.09,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 3.6,
+    "estimated_price": 547000
+  },
+  {
+    "house_size": 1.95,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 5.7,
+    "estimated_price": 867000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 3.4,
+    "estimated_price": 1528000
+  },
+  {
+    "house_size": 0.87,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.0,
+    "estimated_price": 479000
+  },
+  {
+    "house_size": 0.71,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.3,
+    "estimated_price": 469000
+  },
+  {
+    "house_size": 3.13,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 6.7,
+    "estimated_price": 1267000
+  },
+  {
+    "house_size": 3.3,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.9,
+    "estimated_price": 1359000
+  },
+  {
+    "house_size": 2.93,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 4.4,
+    "estimated_price": 1196000
+  },
+  {
+    "house_size": 2.08,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.2,
+    "estimated_price": 828000
+  },
+  {
+    "house_size": 2.21,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.3,
+    "estimated_price": 1051000
+  },
+  {
+    "house_size": 3.31,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 0.7,
+    "estimated_price": 1488000
+  },
+  {
+    "house_size": 2.02,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 3.6,
+    "estimated_price": 949000
+  },
+  {
+    "house_size": 1.17,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.3,
+    "estimated_price": 471000
+  },
+  {
+    "house_size": 1.71,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 0.8,
+    "estimated_price": 881000
+  },
+  {
+    "house_size": 1.15,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 3.8,
+    "estimated_price": 551000
+  },
+  {
+    "house_size": 2.7,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 3.9,
+    "estimated_price": 1097000
+  },
+  {
+    "house_size": 3.49,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 1.9,
+    "estimated_price": 1474000
+  },
+  {
+    "house_size": 3.02,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.2,
+    "estimated_price": 1248000
+  },
+  {
+    "house_size": 2.13,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.0,
+    "estimated_price": 908000
+  },
+  {
+    "house_size": 3.06,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.8,
+    "estimated_price": 1305000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 5.8,
+    "estimated_price": 1484000
+  },
+  {
+    "house_size": 2.07,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 7.5,
+    "estimated_price": 925000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.7,
+    "estimated_price": 999000
+  },
+  {
+    "house_size": 2.8,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 4.2,
+    "estimated_price": 1181000
+  },
+  {
+    "house_size": 2.37,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 0.7,
+    "estimated_price": 1088000
+  },
+  {
+    "house_size": 3.32,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 7.6,
+    "estimated_price": 1422000
+  },
+  {
+    "house_size": 2.05,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.7,
+    "estimated_price": 852000
+  },
+  {
+    "house_size": 2.12,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.8,
+    "estimated_price": 1028000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 1.3,
+    "estimated_price": 1579000
+  },
+  {
+    "house_size": 1.95,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 6.5,
+    "estimated_price": 847000
+  },
+  {
+    "house_size": 3.32,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.4,
+    "estimated_price": 1381000
+  },
+  {
+    "house_size": 2.72,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 3.1,
+    "estimated_price": 1207000
+  },
+  {
+    "house_size": 1.52,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.6,
+    "estimated_price": 704000
+  },
+  {
+    "house_size": 3.2,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 0.3,
+    "estimated_price": 1469000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.9,
+    "estimated_price": 1471000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 4.4,
+    "estimated_price": 909000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.6,
+    "estimated_price": 1003000
+  },
+  {
+    "house_size": 1.84,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 917000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 1.3,
+    "estimated_price": 920000
+  },
+  {
+    "house_size": 1.92,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.4,
+    "estimated_price": 962000
+  },
+  {
+    "house_size": 3.38,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 2.9,
+    "estimated_price": 1417000
+  },
+  {
+    "house_size": 1.64,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 6.4,
+    "estimated_price": 695000
+  },
+  {
+    "house_size": 1.84,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.9,
+    "estimated_price": 782000
+  },
+  {
+    "house_size": 2.17,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 1033000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.3,
+    "estimated_price": 341000
+  },
+  {
+    "house_size": 1.61,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 6.3,
+    "estimated_price": 736000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.4,
+    "estimated_price": 846000
+  },
+  {
+    "house_size": 2.28,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.8,
+    "estimated_price": 1062000
+  },
+  {
+    "house_size": 3.37,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 1.0,
+    "estimated_price": 1424000
+  },
+  {
+    "house_size": 1.52,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 0.7,
+    "estimated_price": 801000
+  },
+  {
+    "house_size": 3.38,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 7.4,
+    "estimated_price": 1361000
+  },
+  {
+    "house_size": 1.52,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.7,
+    "estimated_price": 709000
+  },
+  {
+    "house_size": 1.79,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.2,
+    "estimated_price": 863000
+  },
+  {
+    "house_size": 2.14,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 6.5,
+    "estimated_price": 843000
+  },
+  {
+    "house_size": 3.4,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 3.4,
+    "estimated_price": 1456000
+  },
+  {
+    "house_size": 3.12,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.5,
+    "house_age": 0.1,
+    "estimated_price": 1429000
+  },
+  {
+    "house_size": 1.45,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.0,
+    "estimated_price": 679000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 7.5,
+    "estimated_price": 922000
+  },
+  {
+    "house_size": 2.99,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.8,
+    "estimated_price": 1282000
+  },
+  {
+    "house_size": 3.2,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 4.6,
+    "estimated_price": 1368000
+  },
+  {
+    "house_size": 3.34,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 6.0,
+    "estimated_price": 1316000
+  },
+  {
+    "house_size": 2.9,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.6,
+    "estimated_price": 1233000
+  },
+  {
+    "house_size": 2.77,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 4.7,
+    "estimated_price": 1165000
+  },
+  {
+    "house_size": 3.51,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 3.3,
+    "estimated_price": 1447000
+  },
+  {
+    "house_size": 1.84,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.0,
+    "estimated_price": 756000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 7.5,
+    "estimated_price": 1206000
+  },
+  {
+    "house_size": 2.79,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 1.6,
+    "estimated_price": 1169000
+  },
+  {
+    "house_size": 1.09,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.4,
+    "estimated_price": 552000
+  },
+  {
+    "house_size": 3.09,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 1290000
+  },
+  {
+    "house_size": 2.41,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 1166000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.2,
+    "estimated_price": 1433000
+  },
+  {
+    "house_size": 1.25,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 7.2,
+    "estimated_price": 574000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.1,
+    "estimated_price": 981000
+  },
+  {
+    "house_size": 3.48,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.3,
+    "estimated_price": 1397000
+  },
+  {
+    "house_size": 2.28,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 4.4,
+    "estimated_price": 944000
+  },
+  {
+    "house_size": 2.32,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.3,
+    "estimated_price": 1111000
+  },
+  {
+    "house_size": 3.06,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.4,
+    "estimated_price": 1340000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.0,
+    "estimated_price": 736000
+  },
+  {
+    "house_size": 1.69,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.0,
+    "estimated_price": 747000
+  },
+  {
+    "house_size": 2.96,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 1.0,
+    "estimated_price": 1247000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.1,
+    "estimated_price": 901000
+  },
+  {
+    "house_size": 2.27,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 1.4,
+    "estimated_price": 1149000
+  },
+  {
+    "house_size": 2.66,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 5.4,
+    "estimated_price": 1179000
+  },
+  {
+    "house_size": 1.48,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 1.6,
+    "estimated_price": 784000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 3,
+    "num_bathrooms": 4.0,
+    "house_age": 1.5,
+    "estimated_price": 1075000
+  },
+  {
+    "house_size": 1.57,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.4,
+    "estimated_price": 679000
+  },
+  {
+    "house_size": 1.15,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.5,
+    "estimated_price": 571000
+  },
+  {
+    "house_size": 3.51,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 7.4,
+    "estimated_price": 1401000
+  },
+  {
+    "house_size": 3.13,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 3.4,
+    "estimated_price": 1376000
+  },
+  {
+    "house_size": 1.3,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.8,
+    "estimated_price": 633000
+  },
+  {
+    "house_size": 1.86,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 3.9,
+    "estimated_price": 820000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.0,
+    "house_age": 2.9,
+    "estimated_price": 945000
+  },
+  {
+    "house_size": 2.15,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.2,
+    "estimated_price": 904000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 7.6,
+    "estimated_price": 1200000
+  },
+  {
+    "house_size": 2.97,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 5.2,
+    "estimated_price": 1154000
+  },
+  {
+    "house_size": 2.94,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.7,
+    "estimated_price": 1286000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 1320000
+  },
+  {
+    "house_size": 2.13,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 0.4,
+    "estimated_price": 929000
+  },
+  {
+    "house_size": 0.83,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.8,
+    "estimated_price": 379000
+  },
+  {
+    "house_size": 2.66,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 0.9,
+    "estimated_price": 1210000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 5.0,
+    "house_age": 1.3,
+    "estimated_price": 1536000
+  },
+  {
+    "house_size": 1.05,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.1,
+    "estimated_price": 509000
+  },
+  {
+    "house_size": 2.54,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.6,
+    "estimated_price": 1179000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.8,
+    "estimated_price": 1345000
+  },
+  {
+    "house_size": 3.23,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 2.2,
+    "estimated_price": 1465000
+  },
+  {
+    "house_size": 0.99,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 3.4,
+    "estimated_price": 563000
+  },
+  {
+    "house_size": 2.74,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 6.0,
+    "estimated_price": 1187000
+  },
+  {
+    "house_size": 3.47,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 2.7,
+    "estimated_price": 1477000
+  },
+  {
+    "house_size": 2.47,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.3,
+    "estimated_price": 1075000
+  },
+  {
+    "house_size": 1.21,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 2.8,
+    "estimated_price": 617000
+  },
+  {
+    "house_size": 1.4,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.8,
+    "estimated_price": 662000
+  },
+  {
+    "house_size": 2.24,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 1.3,
+    "estimated_price": 1002000
+  },
+  {
+    "house_size": 2.65,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 4.7,
+    "estimated_price": 1199000
+  },
+  {
+    "house_size": 2.17,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 0.7,
+    "estimated_price": 1033000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.2,
+    "estimated_price": 929000
+  },
+  {
+    "house_size": 1.62,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 4.3,
+    "estimated_price": 792000
+  },
+  {
+    "house_size": 1.16,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.9,
+    "estimated_price": 602000
+  },
+  {
+    "house_size": 2.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.6,
+    "estimated_price": 1018000
+  },
+  {
+    "house_size": 2.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.9,
+    "estimated_price": 918000
+  },
+  {
+    "house_size": 2.48,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 5.4,
+    "estimated_price": 1026000
+  },
+  {
+    "house_size": 1.36,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 0.5,
+    "estimated_price": 669000
+  },
+  {
+    "house_size": 0.88,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.5,
+    "estimated_price": 499000
+  },
+  {
+    "house_size": 1.02,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.0,
+    "estimated_price": 560000
+  },
+  {
+    "house_size": 3.13,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 7.5,
+    "estimated_price": 1191000
+  },
+  {
+    "house_size": 2.52,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 5.1,
+    "estimated_price": 1217000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 0.3,
+    "estimated_price": 1475000
+  },
+  {
+    "house_size": 0.95,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 5.6,
+    "estimated_price": 482000
+  },
+  {
+    "house_size": 1.42,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.7,
+    "estimated_price": 615000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 6.4,
+    "estimated_price": 396000
+  },
+  {
+    "house_size": 3.38,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 0.8,
+    "estimated_price": 1429000
+  },
+  {
+    "house_size": 3.43,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 7.2,
+    "estimated_price": 1315000
+  },
+  {
+    "house_size": 1.35,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.5,
+    "house_age": 0.7,
+    "estimated_price": 760000
+  },
+  {
+    "house_size": 3.19,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 2.8,
+    "estimated_price": 1401000
+  },
+  {
+    "house_size": 2.09,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.9,
+    "estimated_price": 989000
+  },
+  {
+    "house_size": 3.12,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 3.1,
+    "estimated_price": 1273000
+  },
+  {
+    "house_size": 3.18,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 7.6,
+    "estimated_price": 1289000
+  },
+  {
+    "house_size": 1.1,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.7,
+    "estimated_price": 595000
+  },
+  {
+    "house_size": 3.41,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.5,
+    "estimated_price": 1359000
+  },
+  {
+    "house_size": 2.77,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 5.1,
+    "estimated_price": 1137000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.9,
+    "estimated_price": 1537000
+  },
+  {
+    "house_size": 1.33,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 4.6,
+    "estimated_price": 614000
+  },
+  {
+    "house_size": 1.59,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.1,
+    "estimated_price": 686000
+  },
+  {
+    "house_size": 1.79,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 1.6,
+    "estimated_price": 754000
+  },
+  {
+    "house_size": 2.28,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 5.6,
+    "estimated_price": 1011000
+  },
+  {
+    "house_size": 0.9,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.4,
+    "estimated_price": 446000
+  },
+  {
+    "house_size": 2.23,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.2,
+    "estimated_price": 1027000
+  },
+  {
+    "house_size": 2.18,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.4,
+    "estimated_price": 1048000
+  },
+  {
+    "house_size": 3.31,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 6.7,
+    "estimated_price": 1401000
+  },
+  {
+    "house_size": 1.55,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.3,
+    "estimated_price": 673000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 1.6,
+    "estimated_price": 1297000
+  },
+  {
+    "house_size": 1.28,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.4,
+    "estimated_price": 574000
+  },
+  {
+    "house_size": 2.62,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 1.0,
+    "estimated_price": 1173000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 4.8,
+    "estimated_price": 849000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 6.2,
+    "estimated_price": 1417000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 1.4,
+    "estimated_price": 558000
+  },
+  {
+    "house_size": 2.06,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.6,
+    "estimated_price": 891000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 0.5,
+    "estimated_price": 858000
+  },
+  {
+    "house_size": 1.44,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 0.4,
+    "estimated_price": 716000
+  },
+  {
+    "house_size": 1.87,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.3,
+    "estimated_price": 832000
+  },
+  {
+    "house_size": 0.93,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.8,
+    "estimated_price": 478000
+  },
+  {
+    "house_size": 2.95,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.9,
+    "estimated_price": 1253000
+  },
+  {
+    "house_size": 1.72,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.5,
+    "estimated_price": 780000
+  },
+  {
+    "house_size": 1.9,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 906000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 5.3,
+    "estimated_price": 400000
+  },
+  {
+    "house_size": 2.28,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 5.1,
+    "estimated_price": 1042000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 825000
+  },
+  {
+    "house_size": 3.4,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 2.5,
+    "estimated_price": 1512000
+  },
+  {
+    "house_size": 3.43,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.7,
+    "estimated_price": 1478000
+  },
+  {
+    "house_size": 3.28,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 1.3,
+    "estimated_price": 1387000
+  },
+  {
+    "house_size": 1.86,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.7,
+    "estimated_price": 830000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 2.7,
+    "estimated_price": 861000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.5,
+    "estimated_price": 1335000
+  },
+  {
+    "house_size": 2.06,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.4,
+    "estimated_price": 819000
+  },
+  {
+    "house_size": 2.32,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1129000
+  },
+  {
+    "house_size": 2.9,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1299000
+  },
+  {
+    "house_size": 2.67,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.4,
+    "estimated_price": 1079000
+  },
+  {
+    "house_size": 2.18,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.2,
+    "estimated_price": 967000
+  },
+  {
+    "house_size": 3.54,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.1,
+    "estimated_price": 1490000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.5,
+    "estimated_price": 1340000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.0,
+    "estimated_price": 1372000
+  },
+  {
+    "house_size": 3.09,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.4,
+    "estimated_price": 1429000
+  },
+  {
+    "house_size": 1.82,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 0.9,
+    "estimated_price": 801000
+  },
+  {
+    "house_size": 3.19,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1440000
+  },
+  {
+    "house_size": 0.89,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.6,
+    "estimated_price": 526000
+  },
+  {
+    "house_size": 3.52,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.4,
+    "estimated_price": 1442000
+  },
+  {
+    "house_size": 2.8,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 6.6,
+    "estimated_price": 1231000
+  },
+  {
+    "house_size": 1.01,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.3,
+    "estimated_price": 526000
+  },
+  {
+    "house_size": 3.13,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.9,
+    "estimated_price": 1404000
+  },
+  {
+    "house_size": 1.3,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.8,
+    "estimated_price": 774000
+  },
+  {
+    "house_size": 3.22,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 1.3,
+    "estimated_price": 1462000
+  },
+  {
+    "house_size": 3.07,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 0.1,
+    "estimated_price": 1410000
+  },
+  {
+    "house_size": 2.49,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.5,
+    "house_age": 0.6,
+    "estimated_price": 1213000
+  },
+  {
+    "house_size": 1.04,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 4.7,
+    "estimated_price": 578000
+  },
+  {
+    "house_size": 2.93,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 5.6,
+    "estimated_price": 1231000
+  },
+  {
+    "house_size": 2.32,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.5,
+    "estimated_price": 973000
+  },
+  {
+    "house_size": 3.46,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.2,
+    "estimated_price": 1514000
+  },
+  {
+    "house_size": 2.21,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 5.0,
+    "estimated_price": 929000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 0.3,
+    "estimated_price": 1055000
+  },
+  {
+    "house_size": 3.0,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.2,
+    "estimated_price": 1305000
+  },
+  {
+    "house_size": 1.62,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.1,
+    "estimated_price": 735000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.9,
+    "estimated_price": 1027000
+  },
+  {
+    "house_size": 2.87,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.6,
+    "estimated_price": 1237000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.4,
+    "estimated_price": 1494000
+  },
+  {
+    "house_size": 2.49,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 5.3,
+    "estimated_price": 1017000
+  },
+  {
+    "house_size": 1.05,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.9,
+    "estimated_price": 498000
+  },
+  {
+    "house_size": 2.49,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.8,
+    "estimated_price": 1188000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 5.8,
+    "estimated_price": 1003000
+  },
+  {
+    "house_size": 1.55,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 1.7,
+    "estimated_price": 739000
+  },
+  {
+    "house_size": 3.36,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 1.4,
+    "estimated_price": 1491000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 4.9,
+    "estimated_price": 381000
+  },
+  {
+    "house_size": 3.39,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 6.3,
+    "estimated_price": 1408000
+  },
+  {
+    "house_size": 2.98,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 3.0,
+    "estimated_price": 1316000
+  },
+  {
+    "house_size": 1.2,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.1,
+    "estimated_price": 528000
+  },
+  {
+    "house_size": 2.73,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.4,
+    "estimated_price": 1230000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.6,
+    "estimated_price": 355000
+  },
+  {
+    "house_size": 1.48,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.4,
+    "estimated_price": 748000
+  },
+  {
+    "house_size": 2.36,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 0.8,
+    "estimated_price": 1046000
+  },
+  {
+    "house_size": 2.66,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.8,
+    "estimated_price": 1040000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 6.6,
+    "estimated_price": 1410000
+  },
+  {
+    "house_size": 3.13,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 2.3,
+    "estimated_price": 1295000
+  },
+  {
+    "house_size": 2.63,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.4,
+    "estimated_price": 1113000
+  },
+  {
+    "house_size": 3.25,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 0.8,
+    "estimated_price": 1355000
+  },
+  {
+    "house_size": 3.27,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 0.5,
+    "estimated_price": 1474000
+  },
+  {
+    "house_size": 1.0,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.3,
+    "estimated_price": 506000
+  },
+  {
+    "house_size": 1.93,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.5,
+    "estimated_price": 944000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.1,
+    "estimated_price": 1042000
+  },
+  {
+    "house_size": 2.45,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 0.5,
+    "estimated_price": 1099000
+  },
+  {
+    "house_size": 2.23,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.5,
+    "estimated_price": 996000
+  },
+  {
+    "house_size": 3.42,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 2.7,
+    "estimated_price": 1453000
+  },
+  {
+    "house_size": 3.14,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.6,
+    "estimated_price": 1215000
+  },
+  {
+    "house_size": 2.72,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 3.2,
+    "estimated_price": 1165000
+  },
+  {
+    "house_size": 3.19,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 3.4,
+    "estimated_price": 1358000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 0.8,
+    "estimated_price": 1017000
+  },
+  {
+    "house_size": 1.17,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.9,
+    "estimated_price": 588000
+  },
+  {
+    "house_size": 1.9,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 918000
+  },
+  {
+    "house_size": 2.9,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 3.0,
+    "estimated_price": 1208000
+  },
+  {
+    "house_size": 3.4,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 5.4,
+    "estimated_price": 1343000
+  },
+  {
+    "house_size": 1.44,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.8,
+    "estimated_price": 743000
+  },
+  {
+    "house_size": 3.08,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.9,
+    "estimated_price": 1365000
+  },
+  {
+    "house_size": 3.07,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.9,
+    "estimated_price": 1275000
+  },
+  {
+    "house_size": 2.39,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 3.5,
+    "estimated_price": 1104000
+  },
+  {
+    "house_size": 2.39,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.6,
+    "estimated_price": 1129000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 2,
+    "num_bathrooms": 3.0,
+    "house_age": 0.5,
+    "estimated_price": 947000
+  },
+  {
+    "house_size": 2.0,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.9,
+    "estimated_price": 938000
+  },
+  {
+    "house_size": 1.39,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 3.8,
+    "estimated_price": 662000
+  },
+  {
+    "house_size": 1.6,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 6.0,
+    "estimated_price": 751000
+  },
+  {
+    "house_size": 1.98,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.4,
+    "estimated_price": 924000
+  },
+  {
+    "house_size": 0.77,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 4.6,
+    "estimated_price": 414000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.5,
+    "estimated_price": 870000
+  },
+  {
+    "house_size": 2.04,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 6.8,
+    "estimated_price": 887000
+  },
+  {
+    "house_size": 1.01,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 0.5,
+    "estimated_price": 546000
+  },
+  {
+    "house_size": 0.82,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.8,
+    "estimated_price": 432000
+  },
+  {
+    "house_size": 2.84,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.4,
+    "estimated_price": 1237000
+  },
+  {
+    "house_size": 1.98,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 6.2,
+    "estimated_price": 950000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 1.1,
+    "estimated_price": 1318000
+  },
+  {
+    "house_size": 1.02,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 3.5,
+    "estimated_price": 525000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.6,
+    "estimated_price": 1114000
+  },
+  {
+    "house_size": 2.9,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1293000
+  },
+  {
+    "house_size": 2.09,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.0,
+    "house_age": 5.7,
+    "estimated_price": 983000
+  },
+  {
+    "house_size": 1.72,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.8,
+    "estimated_price": 766000
+  },
+  {
+    "house_size": 1.97,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 4.6,
+    "estimated_price": 938000
+  },
+  {
+    "house_size": 1.2,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.3,
+    "estimated_price": 688000
+  },
+  {
+    "house_size": 0.78,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 491000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.9,
+    "estimated_price": 336000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.4,
+    "estimated_price": 391000
+  },
+  {
+    "house_size": 3.27,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1330000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.2,
+    "estimated_price": 895000
+  },
+  {
+    "house_size": 1.65,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.5,
+    "estimated_price": 812000
+  },
+  {
+    "house_size": 2.22,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 0.1,
+    "estimated_price": 1022000
+  },
+  {
+    "house_size": 0.82,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.2,
+    "estimated_price": 353000
+  },
+  {
+    "house_size": 1.93,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.5,
+    "estimated_price": 897000
+  },
+  {
+    "house_size": 0.92,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 3.2,
+    "estimated_price": 516000
+  },
+  {
+    "house_size": 2.09,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.6,
+    "estimated_price": 912000
+  },
+  {
+    "house_size": 2.91,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 1.2,
+    "estimated_price": 1340000
+  },
+  {
+    "house_size": 2.19,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.3,
+    "estimated_price": 1035000
+  },
+  {
+    "house_size": 2.92,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 1.1,
+    "estimated_price": 1298000
+  },
+  {
+    "house_size": 3.32,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.1,
+    "estimated_price": 1365000
+  },
+  {
+    "house_size": 3.41,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 2.1,
+    "estimated_price": 1501000
+  },
+  {
+    "house_size": 1.27,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.1,
+    "estimated_price": 537000
+  },
+  {
+    "house_size": 3.09,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 0.5,
+    "estimated_price": 1327000
+  },
+  {
+    "house_size": 2.24,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 0.6,
+    "estimated_price": 1025000
+  },
+  {
+    "house_size": 2.75,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 4.8,
+    "estimated_price": 1210000
+  },
+  {
+    "house_size": 2.2,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 1.3,
+    "estimated_price": 985000
+  },
+  {
+    "house_size": 1.54,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 0.6,
+    "estimated_price": 731000
+  },
+  {
+    "house_size": 2.97,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.4,
+    "estimated_price": 1370000
+  },
+  {
+    "house_size": 1.08,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.0,
+    "estimated_price": 532000
+  },
+  {
+    "house_size": 3.0,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.4,
+    "estimated_price": 1382000
+  },
+  {
+    "house_size": 1.86,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.7,
+    "estimated_price": 885000
+  },
+  {
+    "house_size": 2.6,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 2.6,
+    "estimated_price": 1238000
+  },
+  {
+    "house_size": 1.59,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.4,
+    "estimated_price": 664000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.4,
+    "estimated_price": 943000
+  },
+  {
+    "house_size": 3.02,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 1.2,
+    "estimated_price": 1410000
+  },
+  {
+    "house_size": 2.49,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 6.2,
+    "estimated_price": 1034000
+  },
+  {
+    "house_size": 2.89,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 1.5,
+    "estimated_price": 1244000
+  },
+  {
+    "house_size": 3.24,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1370000
+  },
+  {
+    "house_size": 1.5,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.7,
+    "estimated_price": 835000
+  },
+  {
+    "house_size": 3.03,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.5,
+    "estimated_price": 1417000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.7,
+    "estimated_price": 1288000
+  },
+  {
+    "house_size": 2.76,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.7,
+    "estimated_price": 1187000
+  },
+  {
+    "house_size": 0.81,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.1,
+    "estimated_price": 394000
+  },
+  {
+    "house_size": 1.85,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 5.7,
+    "estimated_price": 858000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.9,
+    "estimated_price": 310000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 7.4,
+    "estimated_price": 1441000
+  },
+  {
+    "house_size": 2.8,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.4,
+    "estimated_price": 1217000
+  },
+  {
+    "house_size": 3.01,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1297000
+  },
+  {
+    "house_size": 2.19,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 3.0,
+    "estimated_price": 994000
+  },
+  {
+    "house_size": 2.09,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.0,
+    "estimated_price": 971000
+  },
+  {
+    "house_size": 2.03,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 6.2,
+    "estimated_price": 878000
+  },
+  {
+    "house_size": 3.09,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.2,
+    "estimated_price": 1333000
+  },
+  {
+    "house_size": 3.25,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 2.7,
+    "estimated_price": 1413000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 6.4,
+    "estimated_price": 1395000
+  },
+  {
+    "house_size": 3.32,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 6.2,
+    "estimated_price": 1334000
+  },
+  {
+    "house_size": 1.97,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.3,
+    "estimated_price": 937000
+  },
+  {
+    "house_size": 0.85,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.4,
+    "estimated_price": 412000
+  },
+  {
+    "house_size": 1.92,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.9,
+    "estimated_price": 860000
+  },
+  {
+    "house_size": 2.04,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 0.1,
+    "estimated_price": 926000
+  },
+  {
+    "house_size": 3.4,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 7.1,
+    "estimated_price": 1342000
+  },
+  {
+    "house_size": 0.83,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.3,
+    "estimated_price": 409000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 6.2,
+    "estimated_price": 1445000
+  },
+  {
+    "house_size": 2.84,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 3.0,
+    "estimated_price": 1158000
+  },
+  {
+    "house_size": 2.94,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.3,
+    "estimated_price": 1197000
+  },
+  {
+    "house_size": 1.64,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 0.6,
+    "estimated_price": 803000
+  },
+  {
+    "house_size": 3.36,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 1.4,
+    "estimated_price": 1475000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.5,
+    "estimated_price": 1479000
+  },
+  {
+    "house_size": 2.94,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.4,
+    "estimated_price": 1223000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.9,
+    "estimated_price": 393000
+  },
+  {
+    "house_size": 2.17,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 6.2,
+    "estimated_price": 939000
+  },
+  {
+    "house_size": 1.7,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 769000
+  },
+  {
+    "house_size": 3.35,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1376000
+  },
+  {
+    "house_size": 2.34,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 1.6,
+    "estimated_price": 1117000
+  },
+  {
+    "house_size": 1.74,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 7.1,
+    "estimated_price": 776000
+  },
+  {
+    "house_size": 1.97,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.3,
+    "estimated_price": 933000
+  },
+  {
+    "house_size": 2.29,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 1031000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.9,
+    "estimated_price": 1414000
+  },
+  {
+    "house_size": 3.46,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 2.3,
+    "estimated_price": 1463000
+  },
+  {
+    "house_size": 1.37,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 4.3,
+    "estimated_price": 563000
+  },
+  {
+    "house_size": 1.89,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.4,
+    "estimated_price": 920000
+  },
+  {
+    "house_size": 1.56,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 1.1,
+    "estimated_price": 786000
+  },
+  {
+    "house_size": 2.65,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.5,
+    "house_age": 1.2,
+    "estimated_price": 1276000
+  },
+  {
+    "house_size": 3.14,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 2.6,
+    "estimated_price": 1321000
+  },
+  {
+    "house_size": 1.43,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 3.3,
+    "estimated_price": 763000
+  },
+  {
+    "house_size": 2.62,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 3.6,
+    "estimated_price": 1168000
+  },
+  {
+    "house_size": 1.92,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 1.6,
+    "estimated_price": 892000
+  },
+  {
+    "house_size": 2.79,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 1.3,
+    "estimated_price": 1305000
+  },
+  {
+    "house_size": 1.93,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.8,
+    "estimated_price": 923000
+  },
+  {
+    "house_size": 3.08,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 5.4,
+    "estimated_price": 1324000
+  },
+  {
+    "house_size": 2.56,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 0.2,
+    "estimated_price": 1170000
+  },
+  {
+    "house_size": 1.74,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.4,
+    "estimated_price": 892000
+  },
+  {
+    "house_size": 1.48,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 3.7,
+    "estimated_price": 732000
+  },
+  {
+    "house_size": 3.43,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 7.3,
+    "estimated_price": 1381000
+  },
+  {
+    "house_size": 0.87,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.9,
+    "estimated_price": 397000
+  },
+  {
+    "house_size": 2.82,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 4.9,
+    "estimated_price": 1320000
+  },
+  {
+    "house_size": 2.54,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.4,
+    "estimated_price": 1177000
+  },
+  {
+    "house_size": 2.06,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 0.7,
+    "estimated_price": 971000
+  },
+  {
+    "house_size": 2.95,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 7.6,
+    "estimated_price": 1214000
+  },
+  {
+    "house_size": 3.07,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 1267000
+  },
+  {
+    "house_size": 2.77,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 7.4,
+    "estimated_price": 1131000
+  },
+  {
+    "house_size": 2.09,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 1.1,
+    "estimated_price": 954000
+  },
+  {
+    "house_size": 2.59,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.2,
+    "estimated_price": 1104000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 7.4,
+    "estimated_price": 835000
+  },
+  {
+    "house_size": 3.38,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 6.6,
+    "estimated_price": 1436000
+  },
+  {
+    "house_size": 3.14,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.0,
+    "house_age": 7.2,
+    "estimated_price": 1196000
+  },
+  {
+    "house_size": 0.96,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 4.7,
+    "estimated_price": 559000
+  },
+  {
+    "house_size": 1.93,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 6.5,
+    "estimated_price": 806000
+  },
+  {
+    "house_size": 3.23,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 7.6,
+    "estimated_price": 1450000
+  },
+  {
+    "house_size": 1.04,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 6.8,
+    "estimated_price": 542000
+  },
+  {
+    "house_size": 1.66,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.3,
+    "estimated_price": 862000
+  },
+  {
+    "house_size": 3.28,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 7.1,
+    "estimated_price": 1383000
+  },
+  {
+    "house_size": 2.49,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.5,
+    "estimated_price": 1084000
+  },
+  {
+    "house_size": 1.08,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.1,
+    "estimated_price": 591000
+  },
+  {
+    "house_size": 3.47,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 1.6,
+    "estimated_price": 1441000
+  },
+  {
+    "house_size": 1.81,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.5,
+    "estimated_price": 876000
+  },
+  {
+    "house_size": 2.23,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.7,
+    "estimated_price": 1032000
+  },
+  {
+    "house_size": 2.94,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 0.7,
+    "estimated_price": 1350000
+  },
+  {
+    "house_size": 3.34,
+    "num_bedrooms": 6,
+    "num_bathrooms": 2.5,
+    "house_age": 5.9,
+    "estimated_price": 1315000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.9,
+    "estimated_price": 961000
+  },
+  {
+    "house_size": 3.06,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 3.1,
+    "estimated_price": 1327000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.2,
+    "estimated_price": 1270000
+  },
+  {
+    "house_size": 2.25,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 1.3,
+    "estimated_price": 1060000
+  },
+  {
+    "house_size": 3.31,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.3,
+    "estimated_price": 1341000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.6,
+    "estimated_price": 1258000
+  },
+  {
+    "house_size": 1.4,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 4.2,
+    "estimated_price": 681000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.8,
+    "estimated_price": 1164000
+  },
+  {
+    "house_size": 2.78,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 6.2,
+    "estimated_price": 1247000
+  },
+  {
+    "house_size": 1.98,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 7.3,
+    "estimated_price": 864000
+  },
+  {
+    "house_size": 3.02,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.5,
+    "estimated_price": 1334000
+  },
+  {
+    "house_size": 3.12,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.8,
+    "estimated_price": 1313000
+  },
+  {
+    "house_size": 1.57,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 4.7,
+    "estimated_price": 700000
+  },
+  {
+    "house_size": 2.28,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.1,
+    "estimated_price": 1093000
+  },
+  {
+    "house_size": 3.13,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 2.4,
+    "estimated_price": 1371000
+  },
+  {
+    "house_size": 2.2,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.1,
+    "estimated_price": 1082000
+  },
+  {
+    "house_size": 2.74,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 5.7,
+    "estimated_price": 1220000
+  },
+  {
+    "house_size": 2.04,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 2.4,
+    "estimated_price": 983000
+  },
+  {
+    "house_size": 2.26,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 4.1,
+    "estimated_price": 1017000
+  },
+  {
+    "house_size": 3.15,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 3.8,
+    "estimated_price": 1285000
+  },
+  {
+    "house_size": 1.17,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 2.5,
+    "estimated_price": 593000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.9,
+    "estimated_price": 385000
+  },
+  {
+    "house_size": 1.79,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 0.6,
+    "estimated_price": 825000
+  },
+  {
+    "house_size": 2.02,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 6.7,
+    "estimated_price": 921000
+  },
+  {
+    "house_size": 2.7,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 6.6,
+    "estimated_price": 1075000
+  },
+  {
+    "house_size": 2.78,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 2.9,
+    "estimated_price": 1243000
+  },
+  {
+    "house_size": 1.22,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 2.6,
+    "estimated_price": 647000
+  },
+  {
+    "house_size": 3.29,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 6.4,
+    "estimated_price": 1430000
+  },
+  {
+    "house_size": 1.97,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 6.6,
+    "estimated_price": 929000
+  },
+  {
+    "house_size": 1.97,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.8,
+    "estimated_price": 929000
+  },
+  {
+    "house_size": 1.93,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 2.0,
+    "estimated_price": 922000
+  },
+  {
+    "house_size": 1.42,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.0,
+    "house_age": 3.7,
+    "estimated_price": 695000
+  },
+  {
+    "house_size": 2.97,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.4,
+    "estimated_price": 1287000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.1,
+    "estimated_price": 1396000
+  },
+  {
+    "house_size": 1.74,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.8,
+    "estimated_price": 831000
+  },
+  {
+    "house_size": 2.27,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.2,
+    "estimated_price": 977000
+  },
+  {
+    "house_size": 3.34,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 1.3,
+    "estimated_price": 1369000
+  },
+  {
+    "house_size": 3.08,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 7.1,
+    "estimated_price": 1257000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.5,
+    "estimated_price": 1507000
+  },
+  {
+    "house_size": 1.45,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.8,
+    "estimated_price": 699000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 4.1,
+    "estimated_price": 1382000
+  },
+  {
+    "house_size": 1.26,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.5,
+    "estimated_price": 518000
+  },
+  {
+    "house_size": 0.7,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 5.9,
+    "estimated_price": 326000
+  },
+  {
+    "house_size": 1.45,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.9,
+    "estimated_price": 678000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.7,
+    "estimated_price": 946000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 0.1,
+    "estimated_price": 1299000
+  },
+  {
+    "house_size": 1.71,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.0,
+    "estimated_price": 862000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 5.7,
+    "estimated_price": 848000
+  },
+  {
+    "house_size": 1.91,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.8,
+    "estimated_price": 962000
+  },
+  {
+    "house_size": 1.95,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.5,
+    "estimated_price": 827000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.7,
+    "estimated_price": 1287000
+  },
+  {
+    "house_size": 3.29,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 1.1,
+    "estimated_price": 1481000
+  },
+  {
+    "house_size": 3.28,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 2.8,
+    "estimated_price": 1369000
+  },
+  {
+    "house_size": 2.2,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 6.8,
+    "estimated_price": 980000
+  },
+  {
+    "house_size": 1.81,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 6.1,
+    "estimated_price": 825000
+  },
+  {
+    "house_size": 3.02,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.1,
+    "estimated_price": 1333000
+  },
+  {
+    "house_size": 3.02,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.4,
+    "estimated_price": 1335000
+  },
+  {
+    "house_size": 2.11,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.3,
+    "estimated_price": 953000
+  },
+  {
+    "house_size": 2.33,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.6,
+    "estimated_price": 1141000
+  },
+  {
+    "house_size": 3.07,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 2.7,
+    "estimated_price": 1351000
+  },
+  {
+    "house_size": 2.98,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1297000
+  },
+  {
+    "house_size": 3.23,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.5,
+    "estimated_price": 1431000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 5.4,
+    "estimated_price": 1326000
+  },
+  {
+    "house_size": 1.4,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 2.5,
+    "estimated_price": 671000
+  },
+  {
+    "house_size": 2.98,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 0.3,
+    "estimated_price": 1335000
+  },
+  {
+    "house_size": 3.18,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.5,
+    "estimated_price": 1370000
+  },
+  {
+    "house_size": 1.94,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.9,
+    "estimated_price": 904000
+  },
+  {
+    "house_size": 3.1,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1340000
+  },
+  {
+    "house_size": 3.29,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 1.0,
+    "estimated_price": 1435000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.8,
+    "estimated_price": 995000
+  },
+  {
+    "house_size": 3.14,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.3,
+    "estimated_price": 1337000
+  },
+  {
+    "house_size": 3.01,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.3,
+    "estimated_price": 1248000
+  },
+  {
+    "house_size": 1.04,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.5,
+    "estimated_price": 550000
+  },
+  {
+    "house_size": 3.32,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 2.5,
+    "estimated_price": 1455000
+  },
+  {
+    "house_size": 2.07,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.0,
+    "estimated_price": 947000
+  },
+  {
+    "house_size": 1.65,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.9,
+    "estimated_price": 758000
+  },
+  {
+    "house_size": 2.05,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.0,
+    "estimated_price": 913000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.1,
+    "estimated_price": 1304000
+  },
+  {
+    "house_size": 2.35,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 5.6,
+    "estimated_price": 1015000
+  },
+  {
+    "house_size": 2.95,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.7,
+    "estimated_price": 1331000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 0.8,
+    "estimated_price": 1275000
+  },
+  {
+    "house_size": 3.42,
+    "num_bedrooms": 6,
+    "num_bathrooms": 5.0,
+    "house_age": 2.1,
+    "estimated_price": 1506000
+  },
+  {
+    "house_size": 3.3,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.4,
+    "estimated_price": 1363000
+  },
+  {
+    "house_size": 2.24,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 6.1,
+    "estimated_price": 937000
+  },
+  {
+    "house_size": 2.18,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 1.2,
+    "estimated_price": 1021000
+  },
+  {
+    "house_size": 2.05,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.4,
+    "estimated_price": 987000
+  },
+  {
+    "house_size": 1.58,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 0.3,
+    "estimated_price": 753000
+  },
+  {
+    "house_size": 1.39,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 2.8,
+    "estimated_price": 685000
+  },
+  {
+    "house_size": 2.1,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 5.7,
+    "estimated_price": 968000
+  },
+  {
+    "house_size": 2.2,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 2.7,
+    "estimated_price": 958000
+  },
+  {
+    "house_size": 3.39,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.0,
+    "estimated_price": 1359000
+  },
+  {
+    "house_size": 2.07,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 7.5,
+    "estimated_price": 871000
+  },
+  {
+    "house_size": 0.82,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.1,
+    "estimated_price": 467000
+  },
+  {
+    "house_size": 3.34,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 3.1,
+    "estimated_price": 1529000
+  },
+  {
+    "house_size": 0.83,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.9,
+    "estimated_price": 572000
+  },
+  {
+    "house_size": 3.43,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 2.5,
+    "estimated_price": 1505000
+  },
+  {
+    "house_size": 3.26,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.5,
+    "house_age": 0.5,
+    "estimated_price": 1436000
+  },
+  {
+    "house_size": 3.3,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 0.9,
+    "estimated_price": 1477000
+  },
+  {
+    "house_size": 0.72,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.0,
+    "estimated_price": 377000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 2.1,
+    "estimated_price": 1404000
+  },
+  {
+    "house_size": 2.29,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 2.7,
+    "estimated_price": 1075000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 0.9,
+    "estimated_price": 1543000
+  },
+  {
+    "house_size": 2.8,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.9,
+    "estimated_price": 1267000
+  },
+  {
+    "house_size": 1.21,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.8,
+    "estimated_price": 545000
+  },
+  {
+    "house_size": 3.17,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 4.7,
+    "estimated_price": 1370000
+  },
+  {
+    "house_size": 3.32,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 1.2,
+    "estimated_price": 1409000
+  },
+  {
+    "house_size": 3.47,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.5,
+    "house_age": 6.0,
+    "estimated_price": 1508000
+  },
+  {
+    "house_size": 2.67,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.5,
+    "house_age": 3.4,
+    "estimated_price": 1154000
+  },
+  {
+    "house_size": 3.18,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 4.1,
+    "estimated_price": 1387000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 6.6,
+    "estimated_price": 1057000
+  },
+  {
+    "house_size": 1.84,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 6.9,
+    "estimated_price": 878000
+  },
+  {
+    "house_size": 1.93,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 5.9,
+    "estimated_price": 784000
+  },
+  {
+    "house_size": 2.84,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 1.0,
+    "estimated_price": 1186000
+  },
+  {
+    "house_size": 1.92,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 0.8,
+    "estimated_price": 896000
+  },
+  {
+    "house_size": 0.72,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 7.3,
+    "estimated_price": 396000
+  },
+  {
+    "house_size": 2.76,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.4,
+    "estimated_price": 1223000
+  },
+  {
+    "house_size": 3.1,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 1332000
+  },
+  {
+    "house_size": 2.28,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 2.8,
+    "estimated_price": 975000
+  },
+  {
+    "house_size": 2.17,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 5.8,
+    "estimated_price": 881000
+  },
+  {
+    "house_size": 2.53,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.3,
+    "estimated_price": 1144000
+  },
+  {
+    "house_size": 3.36,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 1.2,
+    "estimated_price": 1483000
+  },
+  {
+    "house_size": 3.19,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 7.1,
+    "estimated_price": 1256000
+  },
+  {
+    "house_size": 3.26,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 6.8,
+    "estimated_price": 1391000
+  },
+  {
+    "house_size": 1.91,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 5.7,
+    "estimated_price": 787000
+  },
+  {
+    "house_size": 2.16,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 0.9,
+    "estimated_price": 1015000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 0.8,
+    "estimated_price": 1434000
+  },
+  {
+    "house_size": 1.68,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.7,
+    "estimated_price": 870000
+  },
+  {
+    "house_size": 1.95,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.6,
+    "estimated_price": 956000
+  },
+  {
+    "house_size": 3.04,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 2.9,
+    "estimated_price": 1294000
+  },
+  {
+    "house_size": 0.81,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 5.8,
+    "estimated_price": 482000
+  },
+  {
+    "house_size": 2.8,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 4.9,
+    "estimated_price": 1155000
+  },
+  {
+    "house_size": 2.49,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 3.6,
+    "estimated_price": 1137000
+  },
+  {
+    "house_size": 2.7,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 4.5,
+    "estimated_price": 1143000
+  },
+  {
+    "house_size": 2.87,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 4.7,
+    "estimated_price": 1200000
+  },
+  {
+    "house_size": 1.11,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.0,
+    "house_age": 4.3,
+    "estimated_price": 602000
+  },
+  {
+    "house_size": 1.96,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.0,
+    "house_age": 6.6,
+    "estimated_price": 921000
+  },
+  {
+    "house_size": 3.02,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 7.0,
+    "estimated_price": 1240000
+  },
+  {
+    "house_size": 2.49,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 5.1,
+    "estimated_price": 1125000
+  },
+  {
+    "house_size": 1.99,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 2.4,
+    "estimated_price": 952000
+  },
+  {
+    "house_size": 1.42,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.0,
+    "house_age": 6.8,
+    "estimated_price": 601000
+  },
+  {
+    "house_size": 3.46,
+    "num_bedrooms": 4,
+    "num_bathrooms": 3.0,
+    "house_age": 0.7,
+    "estimated_price": 1404000
+  },
+  {
+    "house_size": 1.95,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 6.2,
+    "estimated_price": 847000
+  },
+  {
+    "house_size": 3.14,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.0,
+    "house_age": 1.2,
+    "estimated_price": 1298000
+  },
+  {
+    "house_size": 2.74,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.5,
+    "house_age": 1.0,
+    "estimated_price": 1296000
+  },
+  {
+    "house_size": 1.1,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 3.7,
+    "estimated_price": 505000
+  },
+  {
+    "house_size": 2.13,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.1,
+    "estimated_price": 907000
+  },
+  {
+    "house_size": 1.87,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 1.2,
+    "estimated_price": 886000
+  },
+  {
+    "house_size": 3.31,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 6.3,
+    "estimated_price": 1339000
+  },
+  {
+    "house_size": 3.55,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 2.3,
+    "estimated_price": 1432000
+  },
+  {
+    "house_size": 3.09,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 1.1,
+    "estimated_price": 1334000
+  },
+  {
+    "house_size": 2.07,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.5,
+    "house_age": 6.0,
+    "estimated_price": 955000
+  },
+  {
+    "house_size": 2.51,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 4.5,
+    "estimated_price": 1099000
+  },
+  {
+    "house_size": 2.6,
+    "num_bedrooms": 5,
+    "num_bathrooms": 3.0,
+    "house_age": 6.4,
+    "estimated_price": 1087000
+  },
+  {
+    "house_size": 2.81,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.0,
+    "house_age": 5.8,
+    "estimated_price": 1189000
+  },
+  {
+    "house_size": 0.95,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.0,
+    "house_age": 5.1,
+    "estimated_price": 438000
+  },
+  {
+    "house_size": 1.15,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.1,
+    "estimated_price": 529000
+  },
+  {
+    "house_size": 1.85,
+    "num_bedrooms": 3,
+    "num_bathrooms": 1.5,
+    "house_age": 2.6,
+    "estimated_price": 788000
+  },
+  {
+    "house_size": 1.54,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 1.2,
+    "estimated_price": 848000
+  },
+  {
+    "house_size": 2.54,
+    "num_bedrooms": 4,
+    "num_bathrooms": 4.5,
+    "house_age": 1.1,
+    "estimated_price": 1199000
+  },
+  {
+    "house_size": 1.18,
+    "num_bedrooms": 1,
+    "num_bathrooms": 2.5,
+    "house_age": 0.2,
+    "estimated_price": 709000
+  },
+  {
+    "house_size": 3.3,
+    "num_bedrooms": 5,
+    "num_bathrooms": 2.5,
+    "house_age": 2.1,
+    "estimated_price": 1401000
+  },
+  {
+    "house_size": 2.68,
+    "num_bedrooms": 3,
+    "num_bathrooms": 3.0,
+    "house_age": 2.8,
+    "estimated_price": 1109000
+  },
+  {
+    "house_size": 3.37,
+    "num_bedrooms": 6,
+    "num_bathrooms": 4.0,
+    "house_age": 7.6,
+    "estimated_price": 1428000
+  },
+  {
+    "house_size": 1.82,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.6,
+    "estimated_price": 813000
+  },
+  {
+    "house_size": 1.81,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.0,
+    "house_age": 5.3,
+    "estimated_price": 739000
+  },
+  {
+    "house_size": 2.31,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 6.1,
+    "estimated_price": 1057000
+  },
+  {
+    "house_size": 1.58,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 1.5,
+    "estimated_price": 752000
+  },
+  {
+    "house_size": 0.93,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.0,
+    "house_age": 4.5,
+    "estimated_price": 534000
+  },
+  {
+    "house_size": 2.87,
+    "num_bedrooms": 3,
+    "num_bathrooms": 2.5,
+    "house_age": 7.5,
+    "estimated_price": 1198000
+  },
+  {
+    "house_size": 3.49,
+    "num_bedrooms": 5,
+    "num_bathrooms": 4.0,
+    "house_age": 0.7,
+    "estimated_price": 1491000
+  },
+  {
+    "house_size": 2.02,
+    "num_bedrooms": 2,
+    "num_bathrooms": 1.5,
+    "house_age": 7.6,
+    "estimated_price": 875000
+  },
+  {
+    "house_size": 3.1,
+    "num_bedrooms": 6,
+    "num_bathrooms": 3.5,
+    "house_age": 0.5,
+    "estimated_price": 1407000
+  },
+  {
+    "house_size": 2.01,
+    "num_bedrooms": 4,
+    "num_bathrooms": 1.5,
+    "house_age": 2.3,
+    "estimated_price": 881000
+  },
+  {
+    "house_size": 0.8,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.0,
+    "house_age": 4.7,
+    "estimated_price": 453000
+  },
+  {
+    "house_size": 3.11,
+    "num_bedrooms": 4,
+    "num_bathrooms": 2.5,
+    "house_age": 0.6,
+    "estimated_price": 1380000
+  },
+  {
+    "house_size": 1.46,
+    "num_bedrooms": 1,
+    "num_bathrooms": 1.5,
+    "house_age": 1.6,
+    "estimated_price": 749000
+  },
+  {
+    "house_size": 1.3,
+    "num_bedrooms": 2,
+    "num_bathrooms": 2.5,
+    "house_age": 0.1,
+    "estimated_price": 690000
   }
 ]

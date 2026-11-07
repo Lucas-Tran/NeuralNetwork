@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 import json
 import json_parser as jp
+import torch
 
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
@@ -13,83 +14,66 @@ def relu(x):
 def forward(X, l, activations, params):
     w = params["w"]
     b = params["b"]
-    cache = {"z": [], "a": []}
     a = X
-    cache["a"].append(a)
     for i in range(l):
-        z = np.dot(w[i], a) + b[i]
+        z = torch.matmul(w[i], a) + b[i]
         match activations[i]:
             case "sigmoid":
-                a = sigmoid(z)
+                a = torch.sigmoid(z)
             case "relu":
-                a = relu(z)
+                a = torch.relu(z)
             case "tanh":
-                a = np.tanh(z)
-        cache["z"].append(z)
-        cache["a"].append(a)
-    return a, cache
+                a = torch.tanh(z)
+            case "linear":
+                a = z
+    return a
 
 
 def compute_cost(M, X, Y_hat, l, activations, params):
-    y, _ = forward(X, l, activations, params)
-    losses = np.sum(np.square(Y_hat - y), axis=0)
-    cost = np.sum(losses) / M
-    return cost
-
-def backward(M, X, Y_hat, l, activations, params):
-    y, cache = forward(X, l, activations, params)
-
-    grads = {"dw": [None] * l, "db": [None] * l}
-
-    da = 2 * (y - Y_hat)
-    for i in range(l - 1, -1, -1):
-        a = cache["a"][i + 1]
-        a_prev = cache["a"][i]
-        z = cache["z"][i]
-
-        match activations[i]:
-            case "sigmoid":
-                dz = da * a * (1 - a)
-            case "relu":
-                dz = da * (z >= 0).astype(float)
-            case "tanh":
-                dz = da * (1 - np.square(a))
-            case _:
-                raise ValueError(f"No activation named {activations[i]}")
-
-        grads["dw"][i] = np.dot(dz, a_prev.T) / M
-        grads["db"][i] = np.sum(dz, axis=1, keepdims=True) / M
-
-        da = np.dot(params["w"][i].T, dz)
-
-    return grads
-
-def update_params(alpha, l, params, grads):
-    w = params["w"]
-    b = params["b"]
-    dw = grads["dw"]
-    db = grads["db"]
-    for i in range(l):
-        w[i] -= alpha * dw[i]
-        b[i] -= alpha * db[i]
-    return {"w": w, "b": b}
+    y = forward(X, l, activations, params)
+    return torch.mean((Y_hat - y) ** 2)
 
 def gradient_decent(M, X, Y_hat, l, activations, alpha, iterations, params):
     training_iterations = []
     costs = []
+    optimizer = torch.optim.Adam(params["w"] + params["b"],lr=alpha)
     for i in range(iterations):
+        optimizer.zero_grad()
         current_cost = compute_cost(M, X, Y_hat, l, activations, params)
-        assert (len(costs) == 0 or current_cost <= costs[-1]), f"Cost is increasing on iteration {i}"
-        costs.append(current_cost)
+
+        costs.append(current_cost.item())
         training_iterations.append(i)
-        grads = backward(M, X, Y_hat, l, activations, params)
-        params = update_params(alpha, l, params, grads)
+
+        current_cost.backward()
+        optimizer.step()
     plt.plot(training_iterations, costs, marker='o', color='blue')
     plt.xlabel("Iteration Index (i)")
     plt.ylabel("Loss")
     plt.title("Loss Over Iterations")
     plt.show()
     return params
+
+def predict(house_size, bedrooms, bathrooms, house_age,
+            params, activations, mean, std):
+
+    X = torch.tensor([
+        [house_size],
+        [bedrooms],
+        [bathrooms],
+        [house_age]
+    ], dtype=torch.float32)
+
+    X = (X - mean) / std
+
+    with torch.no_grad():
+        prediction = forward(
+            X,
+            len(params["w"]),
+            activations,
+            params
+        )
+
+    return prediction.item() * 1_000_000
 
 if __name__ == "__main__":
     M, X, Y_hat = jp.parse_data("data/train.json")
@@ -101,17 +85,56 @@ if __name__ == "__main__":
         n = data["network-architecture"]["n"]
         l = len(n) - 1
         activations = data["network-architecture"]["activations"]
-
     params = {"w": [], "b": []}
 
     for i in range(l):
-        params["w"].append(np.random.randn(n[i + 1], n[i]) * 0.1)
-        params["b"].append(np.zeros((n[i + 1], 1)))
+        params["w"].append(torch.nn.init.xavier_uniform_(
+        torch.empty(n[i + 1], n[i])
+    ).requires_grad_())
+        params["b"].append(torch.zeros(n[i + 1], 1, requires_grad=True))
+
+    mean = X.mean(dim=1, keepdim=True)
+    std = X.std(dim=1, keepdim=True, correction=0)
+
+    X_normalized = (X - mean) / std
 
 
-    params = gradient_decent(M, X, Y_hat, l, activations, alpha, num_iterations, params)
+    params = gradient_decent(M, X_normalized, Y_hat, l, activations, alpha, num_iterations, params)
+
     with open("output.txt", "a") as file:
-        print(f"Training set error: {compute_cost(M, X, Y_hat, l, activations, params)}", file=file)
+        print(f"Training set error: {compute_cost(M, X_normalized, Y_hat, l, activations, params)}", file=file)
         M_dev, X_dev, Y_dev = jp.parse_data("data/dev.json")
 
+        X_dev = (X_dev - mean) / std
+
+        with torch.no_grad():
+            dev_predictions = forward(
+                X_dev, l, activations, params
+            )
+
         print(f"Dev set error: {compute_cost(M_dev, X_dev, Y_dev, l, activations, params)}", file=file)
+
+    while True:
+        print("\nEnter house information (or type 'q' to quit)")
+
+        house_size = input("House size (thousands of sq ft): ")
+
+        if house_size.lower() == "q":
+            break
+
+        bedrooms = float(input("Number of bedrooms: "))
+        bathrooms = float(input("Number of bathrooms: "))
+        house_age = float(input("House age: "))
+
+        price = predict(
+            float(house_size),
+            bedrooms,
+            bathrooms,
+            house_age,
+            params,
+            activations,
+            mean,
+            std
+        )
+
+        print(f"Predicted price: ${price:,.2f}")

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import torch.nn as nn
 import torch
 
-def gradient_decent(model, train_loader, cost_func, alpha, epochs):
+def gradient_decent(model, train_loader, cost_func, alpha, epochs, step_size, gamma):
     training_iterations = []
     costs = []
 
@@ -10,8 +10,11 @@ def gradient_decent(model, train_loader, cost_func, alpha, epochs):
 
     print("Training in progress...")
 
-    optimizer = torch.optim.Adam(model.parameters(), lr=alpha)
+    optimizer = torch.optim.Adam(model.parameters(), lr=alpha, weight_decay=1e-4)
+
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=step_size, gamma=gamma)
     for epoch in range(epochs):
+        cost = 0
         for X, Y in train_loader:
             # Clear gradients
             optimizer.zero_grad()
@@ -19,17 +22,11 @@ def gradient_decent(model, train_loader, cost_func, alpha, epochs):
             # Get Cost (forward prop)
             prediction = model(X)
             current_cost = cost_func(prediction, Y)
-
-            # Record cost
-            # costs.append(current_cost.item())
-            # training_iterations.append(i)
+            cost += current_cost.item()
 
             # Backward prop and gradient decent
             current_cost.backward()
             optimizer.step()
+        scheduler.step()
         print(f"Epoch {epoch + 1} completed!")
-    # plt.plot(training_iterations, costs, marker='o', color='blue')
-    # plt.xlabel("Iteration Index (i)")
-    # plt.ylabel("Loss")
-    # plt.title("Loss Over Iterations")
-    # plt.show()
+        print(f"Cost: {cost / len(train_loader)}")

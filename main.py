@@ -13,13 +13,19 @@ import json
 import torch
 
 def load_data():
-    transform = transforms.ToTensor()
+    train_transform = transforms.Compose([
+        transforms.RandomRotation(degrees=15),  # Rotates up to 15°
+        transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),  # Shifts up to 10% x/y
+        transforms.ToTensor()
+    ])
+
+    test_transform = transforms.ToTensor()
 
     train_dataset = datasets.MNIST(
         root="./data",
         train=True,
         download=True,
-        transform=transform
+        transform=train_transform
     )
 
     train_loader = DataLoader(
@@ -32,7 +38,7 @@ def load_data():
         root="./data",
         train=False,
         download=True,
-        transform=transform
+        transform=test_transform
     )
 
     return train_dataset, train_loader, test_dataset
@@ -55,6 +61,7 @@ def predict_drawing(sketch_dict):
     # Run prediction safely without gradient computations
     with torch.no_grad():
         logits = model(tensor_image)
+        print(logits)
         # Find the highest raw score index column
         predicted_class = torch.argmax(logits, dim=1).item()
 
@@ -73,11 +80,13 @@ if __name__ == "__main__":
 
         alpha = hyperparameters["training"]["alpha"]
         num_iterations = hyperparameters["training"]["epochs"]
+        step_size = hyperparameters["training"]["step_size"]
+        gamma = hyperparameters["training"]["gamma"]
 
 
 
         cost_func = CrossEntropyLoss()
-        gd.gradient_decent(model, train_loader, cost_func, alpha, num_iterations)
+        gd.gradient_decent(model, train_loader, cost_func, alpha, num_iterations, step_size, gamma)
 
         torch.save(model.state_dict(), "params_numbers.pth")
 

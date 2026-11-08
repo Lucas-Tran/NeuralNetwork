@@ -1,10 +1,11 @@
 {
-  "retrain": true,
+  "retrain": false,
   "training": {
-    "alpha": 0.001,
-    "epochs": 20,
+    "lr": 0.001,
+    "epochs": 16,
     "batch_size": 256,
     "step_size": 10,
-    "gamma": 0.5
+    "gamma": 0.5,
+    "weight_decay": 1e-4
   }
 }

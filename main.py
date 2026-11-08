@@ -14,11 +14,13 @@ import torch
 
 def load_data():
     train_transform = transforms.Compose([
-        transforms.RandomRotation(degrees=15),  # Rotates up to 15°
-        transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),  # Shifts up to 10% x/y
+        transforms.RandomApply([
+            transforms.RandomRotation(degrees=10),
+            transforms.RandomAffine(degrees=0, translate=(0.08, 0.08)),
+        ], p=0.5),
         transforms.ToTensor()
     ])
-
+    transforms.ToTensor()
     test_transform = transforms.ToTensor()
 
     train_dataset = datasets.MNIST(
@@ -57,11 +59,9 @@ def predict_drawing(sketch_dict):
 
     # Apply sizing and normalization transforms, then add the Batch Dimension [1, C, H, W]
     tensor_image = transform_pipeline(pil_image).unsqueeze(0)
-
     # Run prediction safely without gradient computations
     with torch.no_grad():
         logits = model(tensor_image)
-        print(logits)
         # Find the highest raw score index column
         predicted_class = torch.argmax(logits, dim=1).item()
 
@@ -72,23 +72,16 @@ if __name__ == "__main__":
     with open("hyperparameters.json") as f:
         hyperparameters = json.load(f)
 
-    model = ModelCNN.ModelCNN("NNArchitecture/CNN.json")
+    model = ModelCNN.ModelCNN("MNIST/CNN.json")
 
     if hyperparameters["retrain"]:
 
         train_dataset, train_loader, test_dataset = load_data()
 
-        alpha = hyperparameters["training"]["alpha"]
-        num_iterations = hyperparameters["training"]["epochs"]
-        step_size = hyperparameters["training"]["step_size"]
-        gamma = hyperparameters["training"]["gamma"]
-
-
-
         cost_func = CrossEntropyLoss()
-        gd.gradient_decent(model, train_loader, cost_func, alpha, num_iterations, step_size, gamma)
+        gd.gradient_decent(model, test_dataset, train_loader, cost_func, hyperparameters["training"])
 
-        torch.save(model.state_dict(), "params_numbers.pth")
+        torch.save(model.state_dict(), "MNIST/params_numbers.pth")
 
         model.eval()
         with open("output.txt", "a") as file:
@@ -108,7 +101,7 @@ if __name__ == "__main__":
 
             print(f"Dev set error: {cost_func(predictions, labels)}", file=file)
     else:
-        model.load_state_dict(torch.load("params_numbers.pth", weights_only=True))
+        model.load_state_dict(torch.load("MNIST/params_numbers.pth", weights_only=True))
         model.eval()
 
     transform_pipeline = transforms.Compose([
@@ -125,4 +118,4 @@ if __name__ == "__main__":
         description="Sketch any single digit number inside the box and click submit to watch your dynamic CNN classify it instantly!"
     )
 
-    interface.launch()
+    interface.launch(server_name="0.0.0.0", server_port=7860)

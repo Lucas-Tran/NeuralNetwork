@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import torch
 
-def gradient_decent(model, dev_dataset, train_loader, cost_func, hyperparameters):
+def gradient_decent(model, train_loader, dev_loader, cost_func, hyperparameters):
     epoch_indices = []
     training_costs = []
     dev_costs = []
@@ -13,8 +13,9 @@ def gradient_decent(model, dev_dataset, train_loader, cost_func, hyperparameters
 
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
     for epoch in range(hyperparameters["epochs"]):
-        train_cost = 0
         model.train()
+
+        train_cost = 0
         for X, Y in train_loader:
             # Clear gradients
             optimizer.zero_grad()
@@ -22,19 +23,21 @@ def gradient_decent(model, dev_dataset, train_loader, cost_func, hyperparameters
             # Get Cost (forward prop)
             prediction = model(X)
             current_cost = cost_func(prediction, Y)
-            train_cost += current_cost.item()
+            train_cost += current_cost.item() / len(train_loader)
 
             # Backward prop and gradient decent
             current_cost.backward()
             optimizer.step()
         scheduler.step()
 
-        images = dev_dataset.data.float().unsqueeze(1) / 255
-        labels = dev_dataset.targets
+        model.eval()
 
+        dev_cost = 0
         with torch.no_grad():
-            dev_cost = cost_func(model(images), labels).item()
-        train_cost /= len(train_loader)
+            for (X, Y) in dev_loader:
+                prediction = model(X)
+                dev_cost += cost_func(prediction, Y).item() / len(dev_loader)
+
         # Record Epoch
         epoch_indices.append(epoch)
         training_costs.append(train_cost)

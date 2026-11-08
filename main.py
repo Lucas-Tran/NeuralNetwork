@@ -1,50 +1,23 @@
 from torch.nn import CrossEntropyLoss
 
-from torchvision import datasets, transforms
-from torch.utils.data import DataLoader
-
+from torchvision import transforms
 import ModelCNN
 import gradient_decent as gd
+import data_loader as dl
 
 import gradio as gr
-from PIL import Image
 
 import json
 import torch
 
-def load_data():
-    train_transform = transforms.Compose([
-        transforms.RandomApply([
-            transforms.RandomRotation(degrees=10),
-            transforms.RandomAffine(degrees=0, translate=(0.08, 0.08)),
-        ], p=0.5),
-        transforms.ToTensor()
-    ])
-    transforms.ToTensor()
-    test_transform = transforms.ToTensor()
+transform_pipeline = transforms.Compose([
+    transforms.RandomInvert(p=1.0),
+    transforms.Resize((28, 28)),
+    transforms.ToTensor(),
+])
 
-    train_dataset = datasets.MNIST(
-        root="./data",
-        train=True,
-        download=True,
-        transform=train_transform
-    )
 
-    train_loader = DataLoader(
-        train_dataset,
-        batch_size=hyperparameters["training"]["batch_size"],
-        shuffle=True
-    )
-
-    test_dataset = datasets.MNIST(
-        root="./data",
-        train=False,
-        download=True,
-        transform=test_transform
-    )
-
-    return train_dataset, train_loader, test_dataset
-
+chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZcdefghnqrt"
 
 def predict_drawing(sketch_dict):
     """Processes the sketch from the browser canvas and outputs predictions."""
@@ -62,53 +35,48 @@ def predict_drawing(sketch_dict):
     # Run prediction safely without gradient computations
     with torch.no_grad():
         logits = model(tensor_image)
+        print(logits)
         # Find the highest raw score index column
-        predicted_class = torch.argmax(logits, dim=1).item()
+        predicted_class = int(torch.argmax(logits, dim=1).item())
+        print(f"Predicted class: {predicted_class}")
 
-    return f"Predicted Digit: {predicted_class}"
+    return f"Predicted Digit: {chars[predicted_class]}"
+
 
 if __name__ == "__main__":
+    model = ModelCNN.ModelCNN("EMNIST/architecture_CNN.json")
 
     with open("hyperparameters.json") as f:
         hyperparameters = json.load(f)
 
-    model = ModelCNN.ModelCNN("MNIST/CNN.json")
-
     if hyperparameters["retrain"]:
 
-        train_dataset, train_loader, test_dataset = load_data()
+        train_loader, dev_loader = dl.load_data(hyperparameters["training"]["batch_size"])
 
         cost_func = CrossEntropyLoss()
-        gd.gradient_decent(model, test_dataset, train_loader, cost_func, hyperparameters["training"])
+        gd.gradient_decent(model, train_loader, dev_loader, cost_func, hyperparameters["training"])
 
-        torch.save(model.state_dict(), "MNIST/params_numbers.pth")
+        torch.save(model.state_dict(), "EMNIST/params.pth")
 
         model.eval()
-        with open("output.txt", "a") as file:
-            images = train_dataset.data.float().unsqueeze(1) / 255
-            labels = train_dataset.targets
 
-            with torch.no_grad():
+        cost = 0
+        with torch.no_grad():
+            for (images, labels) in train_loader:
                 predictions = model(images)
-            print(f"Training set error: {cost_func(predictions, labels).item()}", file=file)
+                cost += cost_func(predictions, labels).item() / len(train_loader)
+        print(f"Training set error: {cost}")
 
-
-            images = test_dataset.data.float().unsqueeze(1) / 255
-            labels = test_dataset.targets
-
-            with torch.no_grad():
+        cost = 0
+        with torch.no_grad():
+            for (images, labels) in dev_loader:
                 predictions = model(images)
-
-            print(f"Dev set error: {cost_func(predictions, labels)}", file=file)
+                cost += cost_func(predictions, labels).item() / len(dev_loader)
+        print(f"Dev set error: {cost}")
     else:
-        model.load_state_dict(torch.load("MNIST/params_numbers.pth", weights_only=True))
+        model.load_state_dict(torch.load("EMNIST/params.pth", weights_only=True))
         model.eval()
 
-    transform_pipeline = transforms.Compose([
-        transforms.Resize((28, 28)),
-        transforms.ToTensor(),
-        transforms.RandomInvert(p=1.0)
-    ])
 
     interface = gr.Interface(
         fn=predict_drawing,

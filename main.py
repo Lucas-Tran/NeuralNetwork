@@ -17,7 +17,7 @@ transform_pipeline = transforms.Compose([
 ])
 
 
-chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZcdefghnqrt"
+chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZacdefghnqrt"
 
 def predict_drawing(sketch_dict):
     """Processes the sketch from the browser canvas and outputs predictions."""
@@ -44,26 +44,44 @@ def predict_drawing(sketch_dict):
 
 
 if __name__ == "__main__":
+    print("Initializing Model...")
     model = ModelCNN.ModelCNN("EMNIST/architecture_CNN.json")
 
     with open("hyperparameters.json") as f:
         hyperparameters = json.load(f)
 
     if hyperparameters["retrain"]:
-
+        print("Loading Data...")
         train_loader, dev_loader = dl.load_data(hyperparameters["training"]["batch_size"])
 
+        if torch.cuda.is_available():
+            device = torch.device("cuda")
+        elif torch.backends.mps.is_available():
+            device = torch.device("mps")
+        else:
+            device = torch.device("cpu")
+
+        print("Using:", device)
+
+        print("Training in progress...")
+
+        model.to(device)
+
         cost_func = CrossEntropyLoss()
-        gd.gradient_decent(model, train_loader, dev_loader, cost_func, hyperparameters["training"])
+        gd.gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperparameters["training"])
 
         torch.save(model.state_dict(), "EMNIST/params.pth")
 
         model.eval()
 
+        model.load_state_dict(torch.load("EMNIST/params.pth", weights_only=True))
+
         error = 0
         total = 0
         with torch.no_grad():
             for (images, labels) in train_loader:
+                images = images.to(device)
+                labels = labels.to(device)
                 outputs = model(images)
                 predictions = torch.argmax(outputs, dim=1)
                 error += (predictions != labels).sum().item()
@@ -75,6 +93,8 @@ if __name__ == "__main__":
         total = 0
         with torch.no_grad():
             for (images, labels) in dev_loader:
+                images = images.to(device)
+                labels = labels.to(device)
                 outputs = model(images)
                 predictions = torch.argmax(outputs, dim=1)
                 error += (predictions != labels).sum().item()

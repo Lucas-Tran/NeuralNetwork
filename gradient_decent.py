@@ -1,23 +1,10 @@
 import matplotlib.pyplot as plt
 import torch
 
-def gradient_decent(model, train_loader, dev_loader, cost_func, hyperparameters):
+def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperparameters):
     epoch_indices = []
     training_costs = []
     dev_costs = []
-
-    if torch.cuda.is_available():
-        device = torch.device("cuda")
-    elif torch.backends.mps.is_available():
-        device = torch.device("mps")
-    else:
-        device = torch.device("cpu")
-
-    print("Using:", device)
-
-    print("Training in progress...")
-
-    model.to(device)
 
 
     optimizer = torch.optim.Adam(model.parameters(), lr=hyperparameters["lr"], weight_decay=hyperparameters["weight_decay"])

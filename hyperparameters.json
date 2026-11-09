@@ -2,9 +2,9 @@
   "retrain": true,
   "training": {
     "lr": 0.0005,
-    "epochs": 10,
+    "epochs": 40,
     "batch_size": 1024,
-    "num_workers": 8,
+    "num_workers": 2,
     "step_size": 10,
     "gamma": 0.5,
     "weight_decay": 1e-4

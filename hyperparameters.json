@@ -1,8 +1,8 @@
 {
-  "retrain": true,
+  "retrain": false,
   "training": {
-    "lr": 0.001,
-    "epochs": 20,
+    "lr": 0.0005,
+    "epochs": 10,
     "batch_size": 256,
     "step_size": 10,
     "gamma": 0.5,

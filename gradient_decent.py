@@ -1,3 +1,5 @@
+from contextlib import nullcontext
+
 import matplotlib.pyplot as plt
 import torch
 
@@ -7,38 +9,61 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
     dev_costs = []
 
 
-    optimizer = torch.optim.Adam(model.parameters(), lr=hyperparameters["lr"], weight_decay=hyperparameters["weight_decay"])
+    use_cuda = device.type == "cuda"
+    use_bf16 = use_cuda and torch.cuda.is_bf16_supported()
+    amp_dtype = torch.bfloat16 if use_bf16 else torch.float16
+    scaler = torch.amp.GradScaler("cuda", enabled=use_cuda and not use_bf16)
+
+    if use_cuda:
+        torch.backends.cudnn.benchmark = True
+        torch.backends.cuda.matmul.allow_tf32 = True
+        torch.backends.cudnn.allow_tf32 = True
+
+    optimizer = torch.optim.Adam(
+        model.parameters(),
+        lr=hyperparameters["lr"],
+        weight_decay=hyperparameters["weight_decay"],
+        fused=use_cuda,
+    )
 
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
     for epoch in range(hyperparameters["epochs"]):
         model.train()
 
-        train_cost = 0
+        train_loss_total = torch.zeros((), device=device)
         for X, Y in train_loader:
-            X = X.to(device)
-            Y = Y.to(device)
-            # Clear gradients
-            optimizer.zero_grad()
+            X = X.to(device, non_blocking=use_cuda)
+            Y = Y.to(device, non_blocking=use_cuda)
+            optimizer.zero_grad(set_to_none=True)
 
-            # Get Cost (forward prop)
-            prediction = model(X)
-            current_cost = cost_func(prediction, Y)
-            train_cost += current_cost.item() / len(train_loader)
+            autocast = torch.autocast(device_type="cuda", dtype=amp_dtype) if use_cuda else nullcontext()
+            with autocast:
+                prediction = model(X)
+                current_cost = cost_func(prediction, Y)
+            train_loss_total += current_cost.detach()
 
-            # Backward prop and gradient decent
-            current_cost.backward()
-            optimizer.step()
+            if scaler.is_enabled():
+                scaler.scale(current_cost).backward()
+                scaler.step(optimizer)
+                scaler.update()
+            else:
+                current_cost.backward()
+                optimizer.step()
         scheduler.step()
+        train_cost = (train_loss_total / len(train_loader)).item()
 
         model.eval()
 
-        dev_cost = 0
+        dev_loss_total = torch.zeros((), device=device)
         with torch.no_grad():
             for (X, Y) in dev_loader:
-                X = X.to(device)
-                Y = Y.to(device)
-                prediction = model(X)
-                dev_cost += cost_func(prediction, Y).item() / len(dev_loader)
+                X = X.to(device, non_blocking=use_cuda)
+                Y = Y.to(device, non_blocking=use_cuda)
+                autocast = torch.autocast(device_type="cuda", dtype=amp_dtype) if use_cuda else nullcontext()
+                with autocast:
+                    prediction = model(X)
+                    dev_loss_total += cost_func(prediction, Y)
+        dev_cost = (dev_loss_total / len(dev_loader)).item()
 
         # Record Epoch
         epoch_indices.append(epoch)

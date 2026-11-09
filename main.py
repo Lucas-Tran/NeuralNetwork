@@ -60,19 +60,27 @@ if __name__ == "__main__":
 
         model.eval()
 
-        cost = 0
+        error = 0
+        total = 0
         with torch.no_grad():
             for (images, labels) in train_loader:
-                predictions = model(images)
-                cost += cost_func(predictions, labels).item() / len(train_loader)
-        print(f"Training set error: {cost}")
+                outputs = model(images)
+                predictions = torch.argmax(outputs, dim=1)
+                error += (predictions != labels).sum().item()
+                total += images.size(0)
+        error /= total
+        print(f"Training set error: {error * 100}%")
 
-        cost = 0
+        error = 0
+        total = 0
         with torch.no_grad():
             for (images, labels) in dev_loader:
-                predictions = model(images)
-                cost += cost_func(predictions, labels).item() / len(dev_loader)
-        print(f"Dev set error: {cost}")
+                outputs = model(images)
+                predictions = torch.argmax(outputs, dim=1)
+                error += (predictions != labels).sum().item()
+                total += images.size(0)
+        error /= total
+        print(f"Dev set error: {error * 100}%")
     else:
         model.load_state_dict(torch.load("EMNIST/params.pth", weights_only=True))
         model.eval()

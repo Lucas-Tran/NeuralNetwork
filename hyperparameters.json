@@ -1,5 +1,5 @@
 {
-  "retrain": false,
+  "retrain": true,
   "training": {
     "lr": 0.001,
     "epochs": 20,

@@ -6,7 +6,18 @@ def gradient_decent(model, train_loader, dev_loader, cost_func, hyperparameters)
     training_costs = []
     dev_costs = []
 
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+    elif torch.backends.mps.is_available():
+        device = torch.device("mps")
+    else:
+        device = torch.device("cpu")
+
+    print("Using:", device)
+
     print("Training in progress...")
+
+    model.to(device)
 
 
     optimizer = torch.optim.Adam(model.parameters(), lr=hyperparameters["lr"], weight_decay=hyperparameters["weight_decay"])
@@ -17,6 +28,8 @@ def gradient_decent(model, train_loader, dev_loader, cost_func, hyperparameters)
 
         train_cost = 0
         for X, Y in train_loader:
+            X = X.to(device)
+            Y = Y.to(device)
             # Clear gradients
             optimizer.zero_grad()
 
@@ -35,6 +48,8 @@ def gradient_decent(model, train_loader, dev_loader, cost_func, hyperparameters)
         dev_cost = 0
         with torch.no_grad():
             for (X, Y) in dev_loader:
+                X = X.to(device)
+                Y = Y.to(device)
                 prediction = model(X)
                 dev_cost += cost_func(prediction, Y).item() / len(dev_loader)
 

@@ -79,6 +79,8 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
 
         dev_loss_total = torch.zeros((), device=device)
         dev_data_wait = 0.0
+        dev_model_elapsed = 0.0
+        dev_model_events = []
         dev_started = perf_counter()
         with torch.no_grad():
             dev_iterator = iter(dev_loader)
@@ -94,9 +96,28 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
                 Y = Y.to(device, non_blocking=use_cuda)
                 autocast = torch.autocast(device_type="cuda", dtype=amp_dtype) if use_cuda else nullcontext()
                 with autocast:
+                    if device.type == "cuda":
+                        model_started = torch.cuda.Event(enable_timing=True)
+                        model_finished = torch.cuda.Event(enable_timing=True)
+                    elif device.type == "mps":
+                        model_started = torch.mps.Event(enable_timing=True)
+                        model_finished = torch.mps.Event(enable_timing=True)
+                    else:
+                        model_started_at = perf_counter()
+                    if device.type in ("cuda", "mps"):
+                        model_started.record()
                     prediction = model(X)
+                    if device.type in ("cuda", "mps"):
+                        model_finished.record()
+                        dev_model_events.append((model_started, model_finished))
+                    else:
+                        dev_model_elapsed += perf_counter() - model_started_at
                     dev_loss_total += cost_func(prediction, Y)
         _synchronize(device)
+        if dev_model_events:
+            dev_model_elapsed = sum(
+                started.elapsed_time(finished) for started, finished in dev_model_events
+            ) / 1000
         dev_elapsed = perf_counter() - dev_started
         dev_cost = (dev_loss_total / len(dev_loader)).item()
         epoch_elapsed = perf_counter() - epoch_started
@@ -108,7 +129,8 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
         print(
             f"Epoch {epoch + 1}/{hyperparameters['epochs']} | "
             f"train loop: {train_elapsed:.2f}s (batch wait: {train_data_wait:.2f}s) | "
-            f"validation: {dev_elapsed:.2f}s (batch wait: {dev_data_wait:.2f}s) | "
+            f"validation: {dev_elapsed:.2f}s (batch wait: {dev_data_wait:.2f}s, "
+            f"model(X): {dev_model_elapsed:.3f}s) | "
             f"total: {epoch_elapsed:.2f}s | "
             f"train loss: {train_cost:.4f} | dev loss: {dev_cost:.4f}"
         )

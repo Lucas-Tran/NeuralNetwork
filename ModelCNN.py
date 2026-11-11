@@ -14,14 +14,16 @@ class ModelCNN(nn.Module):
         self.convolutions = nn.ModuleList()
         self.activations = nn.ModuleList()
         self.poolings = nn.ModuleList()
+        self.dropouts = nn.ModuleList()
         prev_channels = convolutional_layers["input_size"]["channels"]
-        for out_channels, stride, kernel_size, padding, activation, pooling in zip(
+        for out_channels, stride, kernel_size, padding, activation, pooling, dropout in zip(
                 convolutional_layers["channels"],
                 convolutional_layers["strides"],
                 convolutional_layers["kernel_sizes"],
                 convolutional_layers["paddings"],
                 convolutional_layers["activations"],
-                convolutional_layers["pooling"]):
+                convolutional_layers["pooling"],
+                convolutional_layers.get("dropout", [0.0] * len(convolutional_layers["channels"])),):
             self.convolutions.append(nn.Conv2d(in_channels=prev_channels, out_channels=out_channels, stride=stride, kernel_size=kernel_size, padding=padding))
             match activation:
                 case "relu":
@@ -40,6 +42,7 @@ class ModelCNN(nn.Module):
                         self.poolings.append(nn.MaxPool2d(kernel_size=pooling["kernel_size"], stride=pooling["stride"]))
                     case "average":
                         self.poolings.append(nn.AvgPool2d(kernel_size=pooling["kernel_size"], stride=pooling["stride"]))
+            self.dropouts.append(nn.Dropout2d(p=dropout))
             prev_channels = out_channels
 
         FCLs = architecture["FCLs"]
@@ -59,10 +62,11 @@ class ModelCNN(nn.Module):
             x = self.convolutions[i](x)
             x = self.activations[i](x)
             x = self.poolings[i](x)
+            x = self.dropouts[i](x)
         return x
 
     def forward(self, x):
         x = self.forward_convs(x)
-        x = x.view(x.size(0), -1)
+        x = torch.flatten(x, start_dim=1)
         x = self.fully_connected(x)
         return x

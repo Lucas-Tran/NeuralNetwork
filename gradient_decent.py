@@ -22,7 +22,7 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
     compute_capability = torch.cuda.get_device_capability(device) if use_cuda else None
     use_bf16 = use_cuda and compute_capability[0] >= 8
     amp_dtype = torch.bfloat16 if use_bf16 else torch.float16
-    scaler = torch.amp.GradScaler("cuda", enabled=use_cuda and not use_bf16)
+    scaler = torch.cuda.amp.GradScaler(enabled=use_cuda and not use_bf16)
 
     if use_cuda:
         precision = "BF16" if use_bf16 else "FP16"

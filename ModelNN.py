@@ -14,6 +14,7 @@ class ModelNN(nn.Module):
         n = architecture["n"]
         activations = architecture["activations"]
         l = len(activations)
+        dropout = architecture.get("dropout", [0.0] * l)
 
         self.activations = nn.ModuleList()
         for i in range(l):
@@ -33,7 +34,11 @@ class ModelNN(nn.Module):
         for i in range(l):
             self.layers.append(nn.Linear(n[i], n[i + 1]))
 
+        self.dropouts = nn.ModuleList()
+        for i in range(l):
+            self.dropouts.append(nn.Dropout(p=dropout[i]))
+
     def forward(self, x):
-        for layer, activation in zip(self.layers, self.activations):
-            x = activation(layer(x))
+        for layer, activation, dropout in zip(self.layers, self.activations, self.dropouts):
+            x = dropout(activation(layer(x)))
         return x

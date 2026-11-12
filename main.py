@@ -44,6 +44,19 @@ def predict_drawing(sketch_dict):
 
     return f"Predicted Digit: {chars[predicted_class]}"
 
+def calculate_error(dataset):
+    errors = torch.zeros((), device=device, dtype=torch.long)
+    total = 0
+    with torch.no_grad():
+        for (images, labels) in dataset:
+            images = images.to(device, non_blocking=device.type == "cuda")
+            labels = labels.to(device, non_blocking=device.type == "cuda")
+            outputs = model(images)
+            predictions = torch.argmax(outputs, dim=1)
+            errors += (predictions != labels).sum()
+            total += images.size(0)
+    return 100 * errors.item() / total
+
 
 if __name__ == "__main__":
     print("Initializing Model...")
@@ -76,29 +89,15 @@ if __name__ == "__main__":
         model.to(device)
 
         cost_func = CrossEntropyLoss()
-        training_started = time.perf_counter()
         gd.gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperparameters["training"])
-        training_elapsed = time.perf_counter() - training_started
-        print(f"Training and validation time (including loss plot): {training_elapsed / 60:.2f} minutes ({training_elapsed:.1f} seconds)")
 
         torch.save(model.state_dict(), "EMNIST/params.pth")
 
         model.eval()
 
-        model.load_state_dict(torch.load("EMNIST/params.pth", weights_only=True))
+        print(f"Train set error: {calculate_error(train_loader)}%")
+        print(f"Dev set error: {calculate_error(dev_loader)}%")
 
-        errors = torch.zeros((), device=device, dtype=torch.long)
-        total = 0
-        with torch.no_grad():
-            for (images, labels) in dev_loader:
-                images = images.to(device, non_blocking=device.type == "cuda")
-                labels = labels.to(device, non_blocking=device.type == "cuda")
-                outputs = model(images)
-                predictions = torch.argmax(outputs, dim=1)
-                errors += (predictions != labels).sum()
-                total += images.size(0)
-        error = errors.item() / total
-        print(f"Dev set error: {error * 100}%")
     else:
         model.load_state_dict(torch.load("EMNIST/params.pth", weights_only=True))
         model.eval()

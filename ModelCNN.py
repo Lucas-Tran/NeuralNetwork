@@ -12,6 +12,7 @@ class ModelCNN(nn.Module):
         convolutional_layers = architecture["convolutional_layers"]
 
         self.convolutions = nn.ModuleList()
+        self.batch_norm = nn.ModuleList()
         self.activations = nn.ModuleList()
         self.poolings = nn.ModuleList()
         self.dropouts = nn.ModuleList()
@@ -24,7 +25,8 @@ class ModelCNN(nn.Module):
                 convolutional_layers["activations"],
                 convolutional_layers["pooling"],
                 convolutional_layers.get("dropout", [0.0] * len(convolutional_layers["channels"])),):
-            self.convolutions.append(nn.Conv2d(in_channels=prev_channels, out_channels=out_channels, stride=stride, kernel_size=kernel_size, padding=padding))
+            self.convolutions.append(nn.Conv2d(in_channels=prev_channels, out_channels=out_channels, stride=stride, kernel_size=kernel_size, padding=padding, bias=False))
+            self.batch_norm.append(nn.BatchNorm2d(num_features=out_channels))
             match activation:
                 case "relu":
                     self.activations.append(nn.ReLU())
@@ -58,11 +60,18 @@ class ModelCNN(nn.Module):
             return dummy_output.numel()
 
     def forward_convs(self, x):
-        for i in range(len(self.convolutions)):
-            x = self.convolutions[i](x)
-            x = self.activations[i](x)
-            x = self.poolings[i](x)
-            x = self.dropouts[i](x)
+        for convolution, bn, activation, pooling, dropout in zip(
+                self.convolutions,
+                self.batch_norm,
+                self.activations,
+                self.poolings,
+                self.dropouts
+        ):
+            x = convolution(x)
+            x = bn(x)
+            x = activation(x)
+            x = pooling(x)
+            x = dropout(x)
         return x
 
     def forward(self, x):

@@ -18,7 +18,7 @@ transform_pipeline = transforms.Compose([
 ])
 
 
-chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZacdefghnqrt"
+chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabdefghnqrt"
 
 def predict_drawing(sketch_dict):
     """Processes the sketch from the browser canvas and outputs predictions."""

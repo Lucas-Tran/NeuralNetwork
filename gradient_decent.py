@@ -14,7 +14,7 @@ def _synchronize(device):
         torch.mps.synchronize()
 
 
-def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperparameters):
+def gradient_decent(save_path, device, model, train_loader, dev_loader, cost_func, hyperparameters):
     epoch_indices = []
     training_costs = []
     dev_costs = []
@@ -40,9 +40,9 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
         lr=hyperparameters["lr"],
         weight_decay=hyperparameters["weight_decay"],
         fused=use_cuda,
-        decoupled_weight_decay=hyperparameters["weight_decay"]
+        decoupled_weight_decay=True,
     )
-
+    max_accuracy = 0
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
     for epoch in range(hyperparameters["epochs"]):
         _synchronize(device)
@@ -82,6 +82,7 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
         model.eval()
 
         dev_loss_total = torch.zeros((), device=device)
+        dev_correct = torch.zeros((), device=device, dtype=torch.long)
         with torch.no_grad():
             for X, Y in dev_loader:
                 X = X.to(device, non_blocking=use_cuda)
@@ -90,15 +91,24 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
                 with autocast:
                     prediction = model(X)
                     dev_loss_total += cost_func(prediction, Y) * X.size(0)
+                dev_correct += (prediction.argmax(dim=1) == Y).sum()
         _synchronize(device)
         dev_cost = (dev_loss_total / len(dev_loader.dataset)).item()
-
+        dev_accuracy = 100 * dev_correct.item() / len(dev_loader.dataset)
+        if (dev_accuracy > max_accuracy):
+            max_accuracy = dev_accuracy
+            torch.save(model.state_dict(), save_path)
+            print(f"Model saved!")
+        
         # Record Epoch
         epoch_indices.append(epoch)
         training_costs.append(train_cost)
         dev_costs.append(dev_cost)
         print(f"Epoch {epoch + 1}/{hyperparameters['epochs']}")
-        print(f"train loss: {train_cost:.4f} | dev loss: {dev_cost:.4f}")
+        print(f"train loss: {train_cost:.4f} | dev loss: {dev_cost:.4f} | dev accuracy: {dev_accuracy:.2f}%")
+
+    
+    model.load_state_dict(torch.load(save_path, weights_only=True))
 
     training_elapsed = perf_counter() - training_started
     print(

@@ -18,7 +18,7 @@ transform_pipeline = transforms.Compose([
 ])
 
 
-chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZacdefghnqrt"
+chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabdefghnqrt"
 
 def predict_drawing(sketch_dict):
     """Processes the sketch from the browser canvas and outputs predictions."""
@@ -89,9 +89,7 @@ if __name__ == "__main__":
         model.to(device)
 
         cost_func = CrossEntropyLoss()
-        gd.gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperparameters["training"])
-
-        torch.save(model.state_dict(), "EMNIST/params.pth")
+        gd.gradient_decent("EMNIST/params.pth", device, model, train_loader, dev_loader, cost_func, hyperparameters["training"])
 
         model.eval()
 

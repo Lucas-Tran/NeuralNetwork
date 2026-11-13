@@ -4,6 +4,8 @@ from time import perf_counter
 import matplotlib.pyplot as plt
 import torch
 
+from data_loader import random_affine
+
 
 def _synchronize(device):
     if device.type == "cuda":
@@ -12,12 +14,13 @@ def _synchronize(device):
         torch.mps.synchronize()
 
 
-def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperparameters):
+def gradient_decent(save_path, device, model, train_loader, dev_loader, cost_func, hyperparameters):
     epoch_indices = []
     training_costs = []
     dev_costs = []
 
     training_started = perf_counter()
+    augmentation = hyperparameters.get("augmentation")
 
     use_cuda = device.type == "cuda"
     compute_capability = torch.cuda.get_device_capability(device) if use_cuda else None
@@ -37,8 +40,9 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
         lr=hyperparameters["lr"],
         weight_decay=hyperparameters["weight_decay"],
         fused=use_cuda,
+        decoupled_weight_decay=True,
     )
-
+    max_accuracy = 0
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
     for epoch in range(hyperparameters["epochs"]):
         _synchronize(device)
@@ -49,13 +53,20 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
 
             X = X.to(device, non_blocking=use_cuda)
             Y = Y.to(device, non_blocking=use_cuda)
+            if augmentation:
+                X = random_affine(
+                    X,
+                    augmentation["rotation_degrees"],
+                    augmentation["translate_pixels"],
+                    tuple(augmentation["scale"]),
+                )
             optimizer.zero_grad(set_to_none=True)
 
             autocast = torch.autocast(device_type="cuda", dtype=amp_dtype) if use_cuda else nullcontext()
             with autocast:
                 prediction = model(X)
                 current_cost = cost_func(prediction, Y)
-            train_loss_total += current_cost.detach()
+            train_loss_total += current_cost.detach() * X.size(0)
 
             if scaler.is_enabled():
                 scaler.scale(current_cost).backward()
@@ -66,11 +77,12 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
                 optimizer.step()
         scheduler.step()
         _synchronize(device)
-        train_cost = (train_loss_total / len(train_loader)).item()
+        train_cost = (train_loss_total / len(train_loader.dataset)).item()
 
         model.eval()
 
         dev_loss_total = torch.zeros((), device=device)
+        dev_correct = torch.zeros((), device=device, dtype=torch.long)
         with torch.no_grad():
             for X, Y in dev_loader:
                 X = X.to(device, non_blocking=use_cuda)
@@ -78,16 +90,25 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
                 autocast = torch.autocast(device_type="cuda", dtype=amp_dtype) if use_cuda else nullcontext()
                 with autocast:
                     prediction = model(X)
-                    dev_loss_total += cost_func(prediction, Y)
+                    dev_loss_total += cost_func(prediction, Y) * X.size(0)
+                dev_correct += (prediction.argmax(dim=1) == Y).sum()
         _synchronize(device)
-        dev_cost = (dev_loss_total / len(dev_loader)).item()
-
+        dev_cost = (dev_loss_total / len(dev_loader.dataset)).item()
+        dev_accuracy = 100 * dev_correct.item() / len(dev_loader.dataset)
+        if (dev_accuracy > max_accuracy):
+            max_accuracy = dev_accuracy
+            torch.save(model.state_dict(), save_path)
+            print(f"Model saved!")
+        
         # Record Epoch
         epoch_indices.append(epoch)
         training_costs.append(train_cost)
         dev_costs.append(dev_cost)
         print(f"Epoch {epoch + 1}/{hyperparameters['epochs']}")
-        print(f"train loss: {train_cost:.4f} | dev loss: {dev_cost:.4f}")
+        print(f"train loss: {train_cost:.4f} | dev loss: {dev_cost:.4f} | dev accuracy: {dev_accuracy:.2f}%")
+
+    
+    model.load_state_dict(torch.load(save_path, weights_only=True))
 
     training_elapsed = perf_counter() - training_started
     print(

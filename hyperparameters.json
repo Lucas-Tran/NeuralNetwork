@@ -1,12 +1,17 @@
 {
-  "retrain": true,
+  "retrain": false,
   "training": {
     "lr": 0.0005,
     "epochs": 40,
-    "batch_size": 1024,
+    "batch_size": 256,
     "num_workers": 2,
     "step_size": 10,
     "gamma": 0.5,
-    "weight_decay": 1e-4
+    "weight_decay": 0.5,
+    "augmentation": {
+      "rotation_degrees": 10,
+      "translate_pixels": 2,
+      "scale": [0.9, 1.1]
+    }
   }
 }

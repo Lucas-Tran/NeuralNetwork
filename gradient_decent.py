@@ -4,8 +4,7 @@ from time import perf_counter
 import matplotlib.pyplot as plt
 import torch
 
-from data_loader import random_affine
-
+import error_percentage as ep
 
 def _synchronize(device):
     if device.type == "cuda":
@@ -14,7 +13,7 @@ def _synchronize(device):
         torch.mps.synchronize()
 
 
-def gradient_decent(save_path, device, model, train_loader, dev_loader, cost_func, hyperparameters):
+def gradient_decent(save_path, device, model, train_loader, dev_loader, cost_func, hyperparameters, error_func):
     epoch_indices = []
     training_costs = []
     dev_costs = []
@@ -53,13 +52,6 @@ def gradient_decent(save_path, device, model, train_loader, dev_loader, cost_fun
 
             X = X.to(device, non_blocking=use_cuda)
             Y = Y.to(device, non_blocking=use_cuda)
-            if augmentation:
-                X = random_affine(
-                    X,
-                    augmentation["rotation_degrees"],
-                    augmentation["translate_pixels"],
-                    tuple(augmentation["scale"]),
-                )
             optimizer.zero_grad(set_to_none=True)
 
             autocast = torch.autocast(device_type="cuda", dtype=amp_dtype) if use_cuda else nullcontext()
@@ -82,7 +74,6 @@ def gradient_decent(save_path, device, model, train_loader, dev_loader, cost_fun
         model.eval()
 
         dev_loss_total = torch.zeros((), device=device)
-        dev_correct = torch.zeros((), device=device, dtype=torch.long)
         with torch.no_grad():
             for X, Y in dev_loader:
                 X = X.to(device, non_blocking=use_cuda)
@@ -91,10 +82,9 @@ def gradient_decent(save_path, device, model, train_loader, dev_loader, cost_fun
                 with autocast:
                     prediction = model(X)
                     dev_loss_total += cost_func(prediction, Y) * X.size(0)
-                dev_correct += (prediction.argmax(dim=1) == Y).sum()
+        dev_accuracy = error_func(dev_loader, model, device)
         _synchronize(device)
         dev_cost = (dev_loss_total / len(dev_loader.dataset)).item()
-        dev_accuracy = 100 * dev_correct.item() / len(dev_loader.dataset)
         if (dev_accuracy > max_accuracy):
             max_accuracy = dev_accuracy
             torch.save(model.state_dict(), save_path)

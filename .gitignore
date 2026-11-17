@@ -20,6 +20,6 @@ __pycache__/
 pytorch-env/
 output.txt
 .DS_Store
-data/EMNIST
-data/MNIST
+EMNIST/EMNIST
+MNIST/MNIST
 /.idea

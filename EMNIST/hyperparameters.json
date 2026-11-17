@@ -1,10 +1,8 @@
 {
   "retrain": true,
-  "training": {
+  "train": {
     "lr": 0.0005,
     "epochs": 10,
-    "batch_size": 256,
-    "num_workers": 5,
     "step_size": 10,
     "gamma": 0.5,
     "weight_decay": 0.5,
@@ -13,5 +11,9 @@
       "translate_pixels": 2,
       "scale": [0.9, 1.1]
     }
+  },
+  "data": {
+    "batch_size": 256,
+    "num_workers": 5
   }
 }

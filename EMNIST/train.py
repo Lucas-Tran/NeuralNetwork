@@ -14,10 +14,15 @@ from select_device import select_device
 from gradient_decent import gradient_decent
 from error_percentage import calculate_error_multiple_classes
 
+def transpose_emnist(x):
+  return x.transpose(1, 2)
+
 transform = transforms.Compose([
     transforms.ToTensor(),
-    transforms.Lambda(lambda img: img.transpose(1, 2))
+    transforms.Lambda(transpose_emnist),
 ])
+
+datasets.EMNIST.url = "https://biometrics.nist.gov/cs_links/EMNIST/gzip.zip"
 
 if __name__ == "__main__":
     with open("hyperparameters.json", "r") as file:

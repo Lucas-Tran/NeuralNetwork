@@ -2,10 +2,10 @@
   "retrain": true,
   "train": {
     "lr": 0.0005,
-    "epochs": 10,
+    "epochs": 40,
     "step_size": 10,
     "gamma": 0.5,
-    "weight_decay": 0.5,
+    "weight_decay": 0.0001,
     "augmentation": {
       "rotation_degrees": 10,
       "translate_pixels": 2,

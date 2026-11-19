@@ -11,6 +11,7 @@ if __name__ == "__main__":
     device = select_device()
 
     model = ModelNN("architecture.json")
+    model.to(device)
     model.load_state_dict(torch.load("model.pth", map_location=device, weights_only=True))
     model.eval()
 

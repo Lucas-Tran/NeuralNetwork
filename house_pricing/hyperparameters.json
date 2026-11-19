@@ -1,0 +1,13 @@
+{
+  "train": {
+    "lr": 0.005,
+    "epochs": 1000,
+    "weight_decay": 0.5,
+    "step_size": 10,
+    "gamma": 0.5
+  },
+  "data": {
+    "batch_size": 256,
+    "num_workers": 5
+  }
+}

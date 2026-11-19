@@ -1,4 +1,5 @@
 {
-    "n": [4, 64, 32, 16, 1],
-    "activations": ["tanh", "tanh", "tanh", "linear"]
+    "n": [4, 256, 128, 64, 32, 1],
+    "activations": ["tanh", "relu", "tanh", "relu", "relu"],
+    "dropout": [0.1, 0.1, 0.2, 0.3, 0]
 }

@@ -35,7 +35,7 @@ class FaceDataset(Dataset):
         return image, torch.tensor(label, dtype=torch.long)
 
 if __name__ == "__main__":
-    with open("hyperparams.json", "r") as f:
+    with open("hyperparameters.json", "r") as f:
         hyperparams = json.load(f)
     hyperparams_data = hyperparams["data"]
 

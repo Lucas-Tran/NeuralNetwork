@@ -65,32 +65,41 @@ if __name__ == "__main__":
         persistent_workers=hyperparams_data["num_workers"] > 0
     )
 
-    # train_augmentation = K.AugmentationSequential(
-    #     K.RandomHorizontalFlip(p=0.5),
-    #
-    #     K.RandomRotation(
-    #         degrees=10,
-    #         p=0.5
-    #     ),
-    #
-    #     K.RandomResizedCrop(
-    #         size=(128, 128),
-    #         scale=(0.85, 1.0),
-    #         p=0.5
-    #     ),
-    #
-    #     K.ColorJiggle(
-    #         brightness=0.2,
-    #         contrast=0.2,
-    #         saturation=0.2,
-    #         hue=0.05,
-    #         p=0.5
-    #     ),
-    #
-    #     data_keys=["input"]
-    # ).to(device)
+    train_augmentation = K.AugmentationSequential(
+        K.RandomHorizontalFlip(p=0.5),
+
+        K.RandomRotation(
+            degrees=10,
+            p=0.5
+        ),
+
+        K.RandomResizedCrop(
+            size=(128, 128),
+            scale=(0.85, 1.0),
+            p=0.5
+        ),
+
+        K.ColorJiggle(
+            brightness=0.2,
+            contrast=0.2,
+            saturation=0.2,
+            hue=0.05,
+            p=0.5
+        ),
+
+        data_keys=["input"]
+    ).to(device)
 
     model = ModelCNN("architecture.json")
     model.to(device)
-    gradient_decent(device, model, train_loader, dev_loader, BCEWithLogitsLoss(), hyperparams_train, error_func=calculate_error_binary)
+    gradient_decent(
+        device,
+        model,
+        train_loader,
+        dev_loader,
+        BCEWithLogitsLoss(),
+        hyperparams_train,
+        error_func=calculate_error_binary,
+        augmentation=train_augmentation
+    )
     torch.save(model.state_dict(), "model.pth")

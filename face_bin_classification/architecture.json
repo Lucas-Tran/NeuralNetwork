@@ -1,0 +1,35 @@
+{
+  "convolutional_layers": {
+    "input_size": {
+      "width": 128,
+      "height": 128,
+      "channels": 3
+    },
+    "channels": [ 32, 32, 64, 64, 128, 128, 256, 256 ],
+    "strides": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+    "kernel_sizes": [ 3, 3, 3, 3, 3, 3, 3, 3 ],
+    "paddings": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+    "activations": [
+      "relu", "relu",
+      "relu", "relu",
+      "relu", "relu",
+      "relu", "relu"
+    ],
+    "pooling": [
+      null,
+      {"type": "max", "stride": 2, "kernel_size": 2},
+      null,
+      {"type": "max", "stride": 2, "kernel_size": 2},
+      null,
+      {"type": "max", "stride": 2, "kernel_size": 2},
+      null,
+      {"type": "average", "stride": 16, "kernel_size": 16}
+    ],
+    "dropout": [0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.15, 0.15]
+  },
+  "FCLs": {
+    "n": [ 128, 1 ],
+    "activations": ["relu", "linear"],
+    "dropout": [0.5, 0.0]
+  }
+}

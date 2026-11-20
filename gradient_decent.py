@@ -1,6 +1,8 @@
 from contextlib import nullcontext
 from time import perf_counter
 
+from torch.ao.pruning import scheduler
+
 try:
     # PyTorch >= 2.3
     from torch.amp import GradScaler
@@ -39,14 +41,19 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
         torch.backends.cuda.matmul.allow_tf32 = True
         torch.backends.cudnn.allow_tf32 = True
 
-    optimizer = torch.optim.Adam(
+    optimizer = torch.optim.AdamW(
         model.parameters(),
         lr=hyperparameters["lr"],
         weight_decay=hyperparameters["weight_decay"],
         fused=use_cuda
     )
     best_cost = float("inf")
-    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
+    # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer,
+        T_max=hyperparameters["epochs"],
+        eta_min=1e-6
+    )
     for epoch in range(hyperparameters["epochs"]):
         _synchronize(device)
         model.train()
@@ -88,14 +95,18 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
                 with autocast:
                     prediction = model(X)
                     dev_loss_total += cost_func(prediction, Y) * X.size(0)
+        dev_cost = (dev_loss_total / len(dev_loader.dataset)).item()
         if error_func is not None:
             error_rate = error_func(dev_loader, model, device)
-
-        dev_cost = (dev_loss_total / len(dev_loader.dataset)).item()
-        if dev_cost < best_cost:
+            if error_rate < best_cost:
+                best_cost = error_rate
+                torch.save(model.state_dict(), "tmp.pth")
+                print(f"Model saved!")
+        elif dev_cost < best_cost:
             best_cost = dev_cost
             torch.save(model.state_dict(), "tmp.pth")
             print(f"Model saved!")
+
         _synchronize(device)
         
         # Record Epoch

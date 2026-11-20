@@ -1,0 +1,28 @@
+{
+  "retrain": true,
+  "train": {
+    "lr": 0.0005,
+    "epochs": 10,
+    "step_size": 10,
+    "gamma": 0.5,
+    "weight_decay": 1e-4
+  },
+  "data": {
+    "batch_size": 256,
+    "num_workers": 5
+  },
+  "augmentation": {
+    "rotate": {
+      "by": 10,
+      "prob": 0.3
+    },
+    "translate": {
+      "by": [0.1, 0.1],
+      "prob": 0.3
+    },
+    "scale": {
+      "by": [0.9, 1.1],
+      "prob": 0.3
+    }
+  }
+}

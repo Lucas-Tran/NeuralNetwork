@@ -31,6 +31,6 @@
   "FCLs": {
     "n": [256, 64, 1],
     "activations": ["relu", "relu", "linear"],
-    "dropout": [0.3, 0.2, 0.0]
+    "dropout": [0.4, 0.3, 0.0]
   }
 }

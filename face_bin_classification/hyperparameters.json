@@ -1,14 +1,13 @@
 {
-  "retrain": true,
   "train": {
     "lr": 0.0005,
-    "epochs": 10,
+    "epochs": 40,
     "step_size": 10,
     "gamma": 0.5,
     "weight_decay": 1e-4
   },
   "data": {
-    "batch_size": 256,
+    "batch_size": 1024,
     "num_workers": 5
   }
 }

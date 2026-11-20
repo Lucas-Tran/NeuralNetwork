@@ -37,6 +37,7 @@ class FaceDataset(Dataset):
 if __name__ == "__main__":
     with open("hyperparameters.json", "r") as f:
         hyperparams = json.load(f)
+    hyperparams_train = hyperparams["train"]
     hyperparams_data = hyperparams["data"]
 
     dataset = load_dataset("theoriclabs/face-or-not")
@@ -66,5 +67,5 @@ if __name__ == "__main__":
 
     model = ModelCNN("architecture.json")
     model.to(device)
-    gradient_decent(device, model, train_loader, dev_loader, BCEWithLogitsLoss(), hyperparams_data, error_func=calculate_error_binary)
+    gradient_decent(device, model, train_loader, dev_loader, BCEWithLogitsLoss(), hyperparams_train, error_func=calculate_error_binary)
     torch.save(model.state_dict(), "model.pth")

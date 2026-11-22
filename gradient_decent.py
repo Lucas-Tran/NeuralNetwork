@@ -95,14 +95,18 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
                 with autocast:
                     prediction = model(X)
                     dev_loss_total += cost_func(prediction, Y) * X.size(0)
+        dev_cost = (dev_loss_total / len(dev_loader.dataset)).item()
         if error_func is not None:
             error_rate = error_func(dev_loader, model, device)
-
-        dev_cost = (dev_loss_total / len(dev_loader.dataset)).item()
-        if dev_cost < best_cost:
+            if error_rate < best_cost:
+                best_cost = error_rate
+                torch.save(model.state_dict(), "tmp.pth")
+                print(f"Model saved!")
+        elif dev_cost < best_cost:
             best_cost = dev_cost
             torch.save(model.state_dict(), "tmp.pth")
             print(f"Model saved!")
+
         _synchronize(device)
         
         # Record Epoch

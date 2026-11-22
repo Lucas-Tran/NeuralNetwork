@@ -1,6 +1,8 @@
 from contextlib import nullcontext
 from time import perf_counter
 
+from torch.ao.pruning import scheduler
+
 try:
     # PyTorch >= 2.3
     from torch.amp import GradScaler
@@ -39,14 +41,19 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
         torch.backends.cuda.matmul.allow_tf32 = True
         torch.backends.cudnn.allow_tf32 = True
 
-    optimizer = torch.optim.Adam(
+    optimizer = torch.optim.AdamW(
         model.parameters(),
         lr=hyperparameters["lr"],
         weight_decay=hyperparameters["weight_decay"],
         fused=use_cuda
     )
     best_cost = float("inf")
-    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
+    # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer,
+        T_max=hyperparameters["epochs"],
+        eta_min=1e-6
+    )
     for epoch in range(hyperparameters["epochs"]):
         _synchronize(device)
         model.train()

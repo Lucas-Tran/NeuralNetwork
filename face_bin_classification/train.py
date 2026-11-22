@@ -87,7 +87,7 @@ if __name__ == "__main__":
             hue=0.05,
             p=0.5
         ),
-
+        K.RandomErasing(scale=(0.02, 0.15), ratio=(0.3, 3.3), value=0.0, p=0.3),
         data_keys=["input"]
     ).to(device)
 

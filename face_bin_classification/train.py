@@ -70,24 +70,33 @@ if __name__ == "__main__":
         K.RandomHorizontalFlip(p=0.5),
 
         K.RandomRotation(
-            degrees=10,
-            p=0.5
+            degrees=35,
+            p=0.6
         ),
+
+        K.RandomGrayscale(p=0.25),
 
         K.RandomResizedCrop(
             size=(128, 128),
-            scale=(0.85, 1.0),
+            scale=(0.8, 1.0),
             p=0.5
         ),
 
         K.ColorJiggle(
-            brightness=0.2,
-            contrast=0.2,
+            brightness=0.25,
+            contrast=0.25,
             saturation=0.2,
             hue=0.05,
             p=0.5
         ),
-        K.RandomErasing(scale=(0.02, 0.15), ratio=(0.3, 3.3), value=0.0, p=0.3),
+
+        K.RandomErasing(
+            scale=(0.02, 0.15),
+            ratio=(0.3, 3.3),
+            value=0.0,
+            p=0.3
+        ),
+
         data_keys=["input"]
     ).to(device)
 

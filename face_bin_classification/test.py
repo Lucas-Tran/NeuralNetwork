@@ -3,6 +3,8 @@ from torchvision import transforms
 import torch
 from datasets import load_dataset
 import json
+import math
+import matplotlib.pyplot as plt
 
 import sys
 from pathlib import Path
@@ -59,6 +61,8 @@ if __name__ == "__main__":
     TN = torch.zeros((), device=device, dtype=torch.int64)
     FN = torch.zeros((), device=device, dtype=torch.int64)
 
+    misclassified = []
+
     with torch.inference_mode():
         for X, Y in test_loader:
             X = X.to(device, non_blocking=device.type == "cuda")
@@ -74,6 +78,21 @@ if __name__ == "__main__":
             TN += (~predicted_positive & ~actual_positive).sum()
             FN += (~predicted_positive & actual_positive).sum()
 
+            wrong_mask = (predicted_positive != actual_positive).squeeze(1).cpu()
+            if wrong_mask.any():
+                wrong_imgs = X.cpu()[wrong_mask]
+                wrong_true = actual_positive.cpu()[wrong_mask]
+                wrong_pred = predicted_positive.cpu()[wrong_mask]
+                wrong_prob = torch.sigmoid(logits.cpu())[wrong_mask]
+
+                for img, t, p, pr in zip(wrong_imgs, wrong_true, wrong_pred, wrong_prob):
+                    misclassified.append((
+                        img.permute(1, 2, 0).numpy(),
+                        int(t.item()),
+                        int(p.item()),
+                        pr.item(),
+                    ))
+
     TP, FP, TN, FN = TP.item(), FP.item(), TN.item(), FN.item()
 
     precision = 100 * TP / (TP + FP)
@@ -88,3 +107,24 @@ if __name__ == "__main__":
         f.write("\n                 Predicted Face | Predicted Not Face")
         f.write(f"\nActual Face          {TP}               {FN}")
         f.write(f"\nActual Not Face      {FP}               {TN}")
+
+    cols = 6
+    rows = max(1, math.ceil(len(misclassified) / cols))
+    fig, axes = plt.subplots(rows, cols, figsize=(15, 2.8 * rows))
+    axes = axes.flatten()
+    label_names = {1: "Face", 0: "Not Face"}
+
+    for idx, ax in enumerate(axes):
+        if idx < len(misclassified):
+            img, true_y, pred_y, prob = misclassified[idx]
+            ax.imshow(img.clip(0, 1))
+            ax.set_title(
+                f"True: {label_names[true_y]}\nPred: {label_names[pred_y]} ({prob:.2f})",
+                fontsize=9,
+                color="red",
+            )
+        ax.axis("off")
+
+    plt.tight_layout()
+    plt.savefig("misclassified_test.png", dpi=150)
+    plt.show()

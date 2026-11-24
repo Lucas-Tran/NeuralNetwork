@@ -16,7 +16,12 @@ from select_device import select_device
 from gradient_decent import gradient_decent
 from error_percentage import calculate_error_binary
 
-transform = transforms.ToTensor()
+transform = transforms.Compose([
+    transforms.Resize((128, 128)),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
+])
+
 
 class FaceDataset(Dataset):
     def __init__(self, hf_dataset):

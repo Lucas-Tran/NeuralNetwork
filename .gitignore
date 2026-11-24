@@ -24,3 +24,4 @@ EMNIST/EMNIST
 MNIST/MNIST
 /.idea
 face_bin_classification/metrics.txt
+face_bin_classification/misclassified_test.png

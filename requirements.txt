@@ -5,3 +5,4 @@ gradio>=4.0
 datasets
 pillow
 kornia
+opencv-python

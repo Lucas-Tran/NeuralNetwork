@@ -68,33 +68,26 @@ if __name__ == "__main__":
 
     train_augmentation = K.AugmentationSequential(
         K.RandomHorizontalFlip(p=0.5),
-
-        K.RandomRotation(
-            degrees=35,
-            p=0.6
-        ),
-
-        K.RandomGrayscale(p=0.25),
-
+        K.RandomRotation(degrees=15, p=0.5),
         K.RandomResizedCrop(
             size=(128, 128),
-            scale=(0.8, 1.0),
+            scale=(0.85, 1.0),
+            ratio=(0.9, 1.1),
             p=0.5
         ),
-
         K.ColorJiggle(
-            brightness=0.25,
-            contrast=0.25,
-            saturation=0.2,
-            hue=0.05,
+            brightness=0.2,
+            contrast=0.2,
+            saturation=0.15,
+            hue=0.03,
             p=0.5
         ),
-
+        K.RandomGrayscale(p=0.15),
         K.RandomErasing(
-            scale=(0.02, 0.15),
-            ratio=(0.3, 3.3),
+            scale=(0.02, 0.08),
+            ratio=(0.5, 2.0),
             value=0.0,
-            p=0.3
+            p=0.15
         ),
 
         data_keys=["input"]

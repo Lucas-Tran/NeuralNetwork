@@ -2,6 +2,7 @@ from contextlib import nullcontext
 from time import perf_counter
 
 from torch.ao.pruning import scheduler
+from torch.optim.lr_scheduler import CosineAnnealingLR
 
 try:
     # PyTorch >= 2.3
@@ -41,19 +42,33 @@ def gradient_decent(device, model, train_loader, dev_loader, cost_func, hyperpar
         torch.backends.cuda.matmul.allow_tf32 = True
         torch.backends.cudnn.allow_tf32 = True
 
-    optimizer = torch.optim.AdamW(
-        model.parameters(),
-        lr=hyperparameters["lr"],
-        weight_decay=hyperparameters["weight_decay"],
-        fused=use_cuda
-    )
+    match hyperparameters["optimizer"]["type"]:
+        case "SGD":
+            optimizer = torch.optim.SGD(model.parameters(), **hyperparameters["optimizer"]["kwargs"])
+        case "ASGD":
+            optimizer = torch.optim.ASGD(model.parameters(), **hyperparameters["optimizer"]["kwargs"])
+        case "RMSprop":
+            optimizer = torch.optim.RMSprop(model.parameters(), **hyperparameters["optimizer"]["kwargs"])
+        case "Adam":
+            optimizer = torch.optim.Adam(model.parameters(), **hyperparameters["optimizer"]["kwargs"], fused=use_cuda)
+        case "AdamW":
+            optimizer = torch.optim.AdamW(model.parameters(), **hyperparameters["optimizer"]["kwargs"], fused=use_cuda)
+        case _:
+            raise ValueError(f"Unsupported optimizer: {hyperparameters["optimizer"]["type"]}")
+
+    match hyperparameters["scheduler"]["type"]:
+        case "ConstantLR":
+            scheduler = torch.optim.lr_scheduler.ConstantLR(optimizer, **hyperparameters["scheduler"]["kwargs"])
+        case "StepLR":
+            scheduler = torch.optim.lr_scheduler.StepLR(optimizer, **hyperparameters["scheduler"]["kwargs"])
+        case "CosineAnnealingLR":
+            scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, **hyperparameters["scheduler"]["kwargs"])
+        case "ExponentialLR":
+            scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, **hyperparameters["scheduler"]["kwargs"])
+        case _:
+            raise ValueError(f"Unsupported scheduler: {hyperparameters["scheduler"]["type"]}")
+
     best_cost = float("inf")
-    # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyperparameters["step_size"], gamma=hyperparameters["gamma"])
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
-        optimizer,
-        T_max=hyperparameters["epochs"],
-        eta_min=1e-6
-    )
     for epoch in range(hyperparameters["epochs"]):
         _synchronize(device)
         model.train()
